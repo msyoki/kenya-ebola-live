@@ -9,8 +9,8 @@
 import argparse, json, datetime
 from pathlib import Path
 D = Path(__file__).resolve().parent.parent / "data"
-rd = lambda n: json.loads((D / n).read_text())
-wr = lambda n, v: (D / n).write_text(json.dumps(v, indent=1, ensure_ascii=False) + "\n")
+rd = lambda n: json.loads((D / n).read_text(encoding="utf-8"))
+wr = lambda n, v: (D / n).write_text(json.dumps(v, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
 
 ap = argparse.ArgumentParser(); sp = ap.add_subparsers(dest="cmd", required=True)
 sp.add_parser("list")
@@ -42,6 +42,7 @@ elif x.cmd == "stats":
     for k in ("confirmed", "deaths", "contacts", "quarantined"):
         if getattr(x, k) is not None: d["kenya"][k] = getattr(x, k)
     if x.asof: d["kenya"]["asof"] = x.asof
+    d["flags"] = {"figures_stale": False}
     d["updated"] = today; wr("data.json", d); print(d["kenya"])
 elif x.cmd == "banner":
     d = rd("data.json"); d["banner"] = x.text; d["updated"] = today; wr("data.json", d)

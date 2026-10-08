@@ -132,7 +132,7 @@ function renderMain(){
  var k=D.kenya;
  $("banner").innerHTML="<b style='color:var(--alert)'>Status: "+k.confirmed+" confirmed case"+(k.confirmed==1?"":"s")+", "+k.deaths+" death"+(k.deaths==1?"":"s")+" in Kenya.</b> "+esc(D.banner);
  $("stats").innerHTML=[["red",k.confirmed,"Cases"],["red",k.deaths,"Deaths"],["",k.contacts,"Contacts"],["",k.quarantined,"Quarantined"]].map(function(x){return '<div class="stat '+x[0]+'"><div class="n">'+x[1]+'</div><div class="l">'+x[2]+'</div></div>'}).join("");
- $("statnote").textContent="Kenya figures as of "+k.asof+" per Ministry of Health. Contact numbers change as tracing continues.";
+ $("statnote").textContent="Kenya figures as of "+k.asof+" per Ministry of Health. Contact numbers change as tracing continues."+((D.flags&&D.flags.figures_stale)?" A new confirmed case has been reported on the map and timeline; the totals above are being updated and may be out of date.":"");
  $("cap2").innerHTML=D.capacity.map(function(r){return"<tr><td>"+esc(r[0])+"</td><td>"+esc(r[1])+"</td></tr>"}).join("");
  $("reg").innerHTML=D.regional.map(function(r){return"<li>"+esc(r)+"</li>"}).join("");
  $("chips").innerHTML=D.order.map(function(id){return '<button data-id="'+esc(id)+'">'+esc(D.places[id].n.split(" — ")[0].split(",")[0])+'</button>'}).join("");
@@ -142,7 +142,7 @@ function renderMain(){
 function renderTL(){
  var ev=D.events.slice().sort(function(a,b){return a.date<b.date?1:-1}).filter(function(e){return !onlyGov||e.tier!=="media"});
  var lab={gov:"Government",who:"WHO",media:"Media"};
- $("tl").innerHTML=ev.map(function(e){return '<li class="'+esc(e.kind)+'"><div class="date">'+esc(fmtDate(e.date))+'</div><h3>'+esc(e.title)+'</h3>'+(e.text?'<p>'+esc(e.text)+'</p>':'')+'<span class="tag '+esc(e.tier)+'">'+(lab[e.tier]||"Source")+'</span><a href="'+safeUrl(e.url)+'" target="_blank" rel="noopener">Source</a></li>'}).join("");
+ $("tl").innerHTML=ev.map(function(e){return '<li class="'+esc(e.kind)+'"><div class="date">'+esc(fmtDate(e.date))+'</div><h3>'+esc(e.title)+'</h3>'+(e.text?'<p>'+esc(e.text)+'</p>':'')+'<span class="tag '+esc(e.tier)+'">'+(lab[e.tier]||"Source")+'</span>'+(e.auto?'<span class="tag media">Automatic, unreviewed</span>':'')+'<a href="'+safeUrl(e.url)+'" target="_blank" rel="noopener">Source</a></li>'}).join("");
  $("bAll").setAttribute("aria-pressed",!onlyGov);$("bGov").setAttribute("aria-pressed",onlyGov);
 }
 function renderFresh(ok){
@@ -234,7 +234,7 @@ function readout(){
  $("info").innerHTML=html;
 }
 function selectPlace(id,fly){var p=D.places[id];if(cur<D.order.indexOf(id)+1)cur=D.order.length;selected=id;target={lon:p.lo,lat:p.la};mpts=[];
- $("info").innerHTML="<b>"+esc(p.n)+"</b><br><span class='date'>"+esc(p.d)+"</span><br>"+esc(p.t)+'<div class="kv mono"><span>Lat, lon</span><span>'+p.la.toFixed(4)+', '+p.lo.toFixed(4)+'</span></div>';
+ $("info").innerHTML="<b>"+esc(p.n)+"</b>"+(p.auto?' <span class="tag media">Automatic</span>':'')+"<br><span class='date'>"+esc(p.d)+"</span><br>"+esc(p.t)+(p.src?'<br><a href="'+safeUrl(p.src)+'" target="_blank" rel="noopener">Government source</a>':'')+'<div class="kv mono"><span>Lat, lon</span><span>'+p.la.toFixed(4)+', '+p.lo.toFixed(4)+'</span></div>';
  if(fly)flyTo(p.lo,p.la,90);else draw()}
 function tap(cx,cy){
  var r=svg.getBoundingClientRect(),hit=null,bd=22;

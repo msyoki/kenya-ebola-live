@@ -1,0 +1,311 @@
+{
+ "note": "Only these places can ever be pinned automatically. Coordinates are county centres, never addresses.",
+ "counties": [
+  {
+   "n": "Turkana",
+   "lo": 35.435,
+   "la": 3.413,
+   "aliases": []
+  },
+  {
+   "n": "Marsabit",
+   "lo": 37.568,
+   "la": 2.98,
+   "aliases": []
+  },
+  {
+   "n": "Mandera",
+   "lo": 40.736,
+   "la": 3.438,
+   "aliases": []
+  },
+  {
+   "n": "Wajir",
+   "lo": 40.034,
+   "la": 1.81,
+   "aliases": []
+  },
+  {
+   "n": "West Pokot",
+   "lo": 35.243,
+   "la": 1.727,
+   "aliases": [
+    "West-Pokot"
+   ]
+  },
+  {
+   "n": "Samburu",
+   "lo": 37.117,
+   "la": 1.32,
+   "aliases": []
+  },
+  {
+   "n": "Isiolo",
+   "lo": 38.539,
+   "la": 1.012,
+   "aliases": []
+  },
+  {
+   "n": "Baringo",
+   "lo": 35.94,
+   "la": 0.677,
+   "aliases": []
+  },
+  {
+   "n": "Elgeyo-Marakwet",
+   "lo": 35.536,
+   "la": 0.8,
+   "aliases": [
+    "Elgeyo Marakwet",
+    "Keiyo-Marakwet"
+   ]
+  },
+  {
+   "n": "Trans Nzoia",
+   "lo": 34.957,
+   "la": 1.052,
+   "aliases": [
+    "Trans-Nzoia"
+   ]
+  },
+  {
+   "n": "Bungoma",
+   "lo": 34.639,
+   "la": 0.751,
+   "aliases": []
+  },
+  {
+   "n": "Garissa",
+   "lo": 40.181,
+   "la": -0.488,
+   "aliases": []
+  },
+  {
+   "n": "Uasin Gishu",
+   "lo": 35.319,
+   "la": 0.532,
+   "aliases": [
+    "Uasin-Gishu"
+   ]
+  },
+  {
+   "n": "Kakamega",
+   "lo": 34.744,
+   "la": 0.406,
+   "aliases": []
+  },
+  {
+   "n": "Laikipia",
+   "lo": 36.762,
+   "la": 0.324,
+   "aliases": []
+  },
+  {
+   "n": "Busia",
+   "lo": 34.194,
+   "la": 0.39,
+   "aliases": []
+  },
+  {
+   "n": "Meru",
+   "lo": 37.761,
+   "la": 0.172,
+   "aliases": []
+  },
+  {
+   "n": "Nandi",
+   "lo": 35.112,
+   "la": 0.186,
+   "aliases": []
+  },
+  {
+   "n": "Siaya",
+   "lo": 34.247,
+   "la": -0.058,
+   "aliases": []
+  },
+  {
+   "n": "Nakuru",
+   "lo": 36.076,
+   "la": -0.464,
+   "aliases": []
+  },
+  {
+   "n": "Vihiga",
+   "lo": 34.722,
+   "la": 0.078,
+   "aliases": []
+  },
+  {
+   "n": "Nyandarua",
+   "lo": 36.478,
+   "la": -0.318,
+   "aliases": []
+  },
+  {
+   "n": "Tharaka-Nithi",
+   "lo": 37.872,
+   "la": -0.199,
+   "aliases": [
+    "Tharaka Nithi"
+   ]
+  },
+  {
+   "n": "Kericho",
+   "lo": 35.337,
+   "la": -0.244,
+   "aliases": []
+  },
+  {
+   "n": "Kisumu",
+   "lo": 34.835,
+   "la": -0.168,
+   "aliases": []
+  },
+  {
+   "n": "Nyeri",
+   "lo": 36.954,
+   "la": -0.343,
+   "aliases": []
+  },
+  {
+   "n": "Tana River",
+   "lo": 39.412,
+   "la": -1.557,
+   "aliases": [
+    "Tana-River"
+   ]
+  },
+  {
+   "n": "Kitui",
+   "lo": 38.406,
+   "la": -1.486,
+   "aliases": []
+  },
+  {
+   "n": "Kirinyaga",
+   "lo": 37.319,
+   "la": -0.521,
+   "aliases": []
+  },
+  {
+   "n": "Embu",
+   "lo": 37.625,
+   "la": -0.602,
+   "aliases": []
+  },
+  {
+   "n": "Homa Bay",
+   "lo": 34.36,
+   "la": -0.541,
+   "aliases": [
+    "Homabay"
+   ]
+  },
+  {
+   "n": "Bomet",
+   "lo": 35.282,
+   "la": -0.691,
+   "aliases": []
+  },
+  {
+   "n": "Nyamira",
+   "lo": 34.965,
+   "la": -0.642,
+   "aliases": []
+  },
+  {
+   "n": "Narok",
+   "lo": 35.575,
+   "la": -1.254,
+   "aliases": []
+  },
+  {
+   "n": "Kisii",
+   "lo": 34.776,
+   "la": -0.773,
+   "aliases": []
+  },
+  {
+   "n": "Murang'a",
+   "lo": 37.031,
+   "la": -0.809,
+   "aliases": [
+    "Muranga",
+    "Murang’a"
+   ]
+  },
+  {
+   "n": "Migori",
+   "lo": 34.364,
+   "la": -0.99,
+   "aliases": []
+  },
+  {
+   "n": "Kiambu",
+   "lo": 36.82,
+   "la": -1.067,
+   "aliases": []
+  },
+  {
+   "n": "Machakos",
+   "lo": 37.406,
+   "la": -1.29,
+   "aliases": []
+  },
+  {
+   "n": "Kajiado",
+   "lo": 36.909,
+   "la": -2.12,
+   "aliases": []
+  },
+  {
+   "n": "Nairobi",
+   "lo": 36.865,
+   "la": -1.293,
+   "aliases": [
+    "Nairobi City"
+   ]
+  },
+  {
+   "n": "Makueni",
+   "lo": 37.8,
+   "la": -2.166,
+   "aliases": []
+  },
+  {
+   "n": "Lamu",
+   "lo": 40.758,
+   "la": -2.035,
+   "aliases": []
+  },
+  {
+   "n": "Kilifi",
+   "lo": 39.683,
+   "la": -3.173,
+   "aliases": []
+  },
+  {
+   "n": "Taita-Taveta",
+   "lo": 38.418,
+   "la": -3.432,
+   "aliases": [
+    "Taita Taveta"
+   ]
+  },
+  {
+   "n": "Kwale",
+   "lo": 39.151,
+   "la": -4.138,
+   "aliases": []
+  },
+  {
+   "n": "Mombasa",
+   "lo": 39.697,
+   "la": -3.984,
+   "aliases": [
+    "Mombasa City"
+   ]
+  }
+ ]
+}

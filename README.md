@@ -15,6 +15,18 @@ A static site plus a scheduled checker. Reports are queued automatically and pub
 3. Actions tab → "Check for Ebola reports" → Run workflow once, then confirm the sources show `ok`.
 4. Settings → Actions → General → Workflow permissions → "Read and write".
 
+## Automatic pings from Kenyan government statements
+A statement on a Kenyan government site (`.go.ke`, in practice health.go.ke) is published automatically as a map ping and timeline entry only if **all** of these hold (`scripts/matcher.py`, tested by `scripts/test_matcher.py`):
+- it says a case was **confirmed** (or tested positive) and mentions Ebola/Bundibugyo;
+- the same sentence names **exactly one Kenyan county** from `data/gazetteer.json`;
+- the sentence has no negative, suspected, rumour, hypothetical or "preparedness" wording and does not mention DRC, Uganda or other countries;
+- that county doesn't already have a case ping, and the daily limit (default 2) isn't reached.
+Anything else (WHO, media, unclear wording) goes to the review queue, with the reason shown.
+
+Automatic entries are labelled "Automatic, unreviewed", pin the **county centre** (never an address), store the source link and the exact sentence, and show a notice that totals are being updated. **Case, death and contact numbers are never changed automatically.** Turn pings off, change the daily limit or remove a ping on the review page.
+
+Limits: the Ministry has no data feed and its wording varies, so some real announcements will be queued instead of auto-published, and a misleading sentence that passes every rule could still be published. Watch the first weeks closely. The matcher is tested on sample sentences, not on real Ministry pages, which I couldn't reach from here.
+
 ## Approve from your phone (review page)
 Open `review.html` on your site (for example `https://YOUR-NAME.github.io/kenya-ebola-live/review.html`). It isn't linked from the public page.
 1. In GitHub: Settings → Developer settings → Fine-grained tokens → create one for this repository only, permission **Contents: Read and write**.

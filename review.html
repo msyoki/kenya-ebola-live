@@ -53,6 +53,15 @@ a{color:var(--gov);word-break:break-all}
     <h2>Waiting for review (<span id="pc">0</span>)</h2>
     <div id="pending"></div>
 
+    <h2>Automatic map pings</h2>
+    <div class="card">
+      <p class="note" style="margin-top:0">When the Ministry of Health (a .go.ke site) states a confirmed case in exactly one county, a ping and timeline entry are added without review. Case totals are never changed automatically.</p>
+      <label style="display:flex;gap:8px;align-items:center;color:var(--ink);font-size:.95rem"><input type="checkbox" id="a_on" style="width:auto"> Automatic pings on</label>
+      <label>Maximum per day</label><input id="a_max" type="number" min="0" max="10">
+      <div class="btns"><button class="pri" id="saveAuto">Save setting</button></div>
+      <div id="autos" style="margin-top:10px"></div>
+    </div>
+
     <h2>Case numbers and banner</h2>
     <div class="card">
       <div class="row"><div><label>Confirmed cases</label><input id="s_conf" type="number" min="0"></div><div><label>Deaths</label><input id="s_dead" type="number" min="0"></div></div>
@@ -83,11 +92,11 @@ function putF(p,obj,sha,msg){return api("/contents/"+p,{method:"PUT",body:JSON.s
 function guess(){var h=location.hostname,p=location.pathname.split("/")[1];if(/\.github\.io$/.test(h)&&p)return h.split(".")[0]+"/"+p;return ""}
 function loadCfg(){try{cfg.repo=LS.getItem("kt_repo")||guess();cfg.branch=LS.getItem("kt_branch")||"main";cfg.tok=LS.getItem("kt_tok")||""}catch(e){}
  $("repo").value=cfg.repo;$("branch").value=cfg.branch;$("tok").value=cfg.tok}
-var D=null,dSha=null,P=null,pSha=null,ST=null;
+var D=null,dSha=null,P=null,pSha=null,ST=null,SET=null;
 
 function refresh(){
- return Promise.all([getF("data/data.json"),getF("data/pending.json"),getF("data/status.json").catch(function(){return {v:null}})]).then(function(r){
-  D=r[0].v;dSha=r[0].sha;P=r[1].v;pSha=r[1].sha;ST=r[2].v;render()})
+ return Promise.all([getF("data/data.json"),getF("data/pending.json"),getF("data/status.json").catch(function(){return {v:null}}),getF("data/settings.json").catch(function(){return {v:{auto_ping:false,max_per_day:2,allowed_domain_suffix:".go.ke"}}})]).then(function(r){
+  D=r[0].v;dSha=r[0].sha;P=r[1].v;pSha=r[1].sha;ST=r[2].v;SET=r[3].v;render()})
 }
 function render(){
  $("app").hidden=false;$("conn").querySelector("b").textContent="Connected to "+cfg.repo;
@@ -97,7 +106,7 @@ function render(){
  // pending
  $("pc").textContent=P.length;
  $("pending").innerHTML=P.length?P.slice().reverse().map(function(p){var today=new Date().toISOString().slice(0,10);
-  return '<div class="card item" data-id="'+esc(p.id)+'"><span class="tag '+esc(p.tier)+'">'+({gov:"Government",who:"WHO",media:"Media"}[p.tier]||"Source")+'</span>'+(p.kenya?'<span class="tag ke">Mentions Kenya</span>':'')+'<span class="note">'+esc(p.source)+'</span><h3>'+esc(p.title)+'</h3><a href="'+safeUrl(p.url)+'" target="_blank" rel="noopener">Open source to verify</a>'
+  return '<div class="card item" data-id="'+esc(p.id)+'"><span class="tag '+esc(p.tier)+'">'+({gov:"Government",who:"WHO",media:"Media"}[p.tier]||"Source")+'</span>'+(p.kenya?'<span class="tag ke">Mentions Kenya</span>':'')+'<span class="note">'+esc(p.source)+'</span><h3>'+esc(p.title)+'</h3>'+(p.auto_skip?'<div class="src">Not published automatically: '+esc(p.auto_skip)+'</div>':'')+'<a href="'+safeUrl(p.url)+'" target="_blank" rel="noopener">Open source to verify</a>'
   +'<label>Headline to publish</label><input class="f_t" value="'+esc(p.title)+'">'
   +'<label>Summary (what the source confirms, in your words)</label><textarea class="f_x" placeholder="One or two sentences"></textarea>'
   +'<div class="row"><div><label>Date</label><input class="f_d" type="date" value="'+today+'"></div><div><label>Type</label><select class="f_k"><option value="">Update</option><option value="crit">Key event (red)</option><option value="neg">Ruled out / good news (green)</option></select></div></div>'
@@ -105,6 +114,11 @@ function render(){
   +'<div class="btns"><button class="pri a_ok">Approve and publish</button><button class="bad a_no">Reject</button></div></div>'}).join(""):'<div class="card note">Nothing waiting. New reports appear here after the next check.</div>';
  $("pending").querySelectorAll(".item").forEach(function(c){var id=c.getAttribute("data-id");
   c.querySelector(".a_ok").onclick=function(){approve(id,c,this)};c.querySelector(".a_no").onclick=function(){reject(id,this)}});
+ // automatic pings
+ $("a_on").checked=!!SET.auto_ping;$("a_max").value=SET.max_per_day;
+ var au=D.events.filter(function(e){return e.auto});
+ $("autos").innerHTML=(D.flags&&D.flags.figures_stale?'<div class="src" style="color:var(--warn)">New automatic case reported: update the case numbers below, then Publish changes to clear the notice on the public page.</div>':'')+(au.length?au.map(function(e){return '<div class="ev"><div><b>'+esc(e.title)+'</b><br><span class="note">'+esc(e.date)+' · <a href="'+safeUrl(e.url)+'" target="_blank" rel="noopener">source</a></span></div><button class="bad" data-id="'+esc(e.id)+'">Remove ping</button></div>'}).join(""):'<div class="src">No automatic pings yet.</div>');
+ $("autos").querySelectorAll("button").forEach(function(b){b.onclick=function(){removePing(b.getAttribute("data-id"),b)}});
  // stats
  var k=D.kenya;$("s_conf").value=k.confirmed;$("s_dead").value=k.deaths;$("s_cont").value=k.contacts;$("s_quar").value=k.quarantined;$("s_asof").value=k.asof;$("s_banner").value=D.banner||"";
  // events
@@ -126,7 +140,10 @@ $("saveStats").onclick=function(){var n=function(i){return parseInt($(i).value,1
  if(v.some(function(x){return isNaN(x)||x<0})){say("Enter whole numbers (0 or more) for all four figures.",false);return}
  if(v[1]>v[0]){say("Deaths cannot exceed confirmed cases here. Check the numbers.",false);return}
  if(v[3]>v[2]){say("Quarantined cannot exceed contacts listed. Check the numbers.",false);return}
- guard(this,function(){return getF("data/data.json").then(function(f){var d=f.v;d.kenya={confirmed:v[0],deaths:v[1],contacts:v[2],quarantined:v[3],asof:$("s_asof").value.trim()||d.kenya.asof};d.banner=$("s_banner").value.trim();d.updated=today();return putF("data/data.json",d,f.sha,"Update figures")}).then(function(){say("Published.",true)})})};
+ guard(this,function(){return getF("data/data.json").then(function(f){var d=f.v;d.kenya={confirmed:v[0],deaths:v[1],contacts:v[2],quarantined:v[3],asof:$("s_asof").value.trim()||d.kenya.asof};d.banner=$("s_banner").value.trim();d.flags={figures_stale:false};d.updated=today();return putF("data/data.json",d,f.sha,"Update figures")}).then(function(){say("Published.",true)})})};
+function removePing(id,btn){if(!confirm("Remove this automatic ping and its timeline entry?"))return;guard(btn,function(){return getF("data/data.json").then(function(f){var d=f.v;delete d.places[id];d.order=d.order.filter(function(x){return x!==id});d.events=d.events.filter(function(e){return e.id!==id});d.updated=today();return putF("data/data.json",d,f.sha,"Remove automatic ping "+id)}).then(function(){say("Ping removed.",true)})})}
+$("saveAuto").onclick=function(){var m=parseInt($("a_max").value,10);if(isNaN(m)||m<0||m>10){say("Maximum per day must be 0 to 10.",false);return}
+ guard(this,function(){return getF("data/settings.json").catch(function(){return {v:{allowed_domain_suffix:".go.ke"},sha:undefined}}).then(function(f){var v=f.v;v.auto_ping=$("a_on").checked;v.max_per_day=m;return putF("data/settings.json",v,f.sha,"Automatic pings "+(v.auto_ping?"on":"off"))}).then(function(){say("Saved.",true)})})};
 $("connect").onclick=function(){cfg.repo=$("repo").value.trim();cfg.branch=$("branch").value.trim()||"main";cfg.tok=$("tok").value.trim();
  if(!/^[\w.-]+\/[\w.-]+$/.test(cfg.repo)){say("Enter the repository as owner/name.",false);return}if(!cfg.tok){say("Paste your access token.",false);return}
  try{LS.setItem("kt_repo",cfg.repo);LS.setItem("kt_branch",cfg.branch);LS.setItem("kt_tok",cfg.tok)}catch(e){}

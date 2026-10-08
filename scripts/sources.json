@@ -1,6 +1,30 @@
 [
-  {"name":"Kenya Ministry of Health","tier":"gov","type":"html","url":"https://www.health.go.ke/"},
-  {"name":"WHO Disease Outbreak News","tier":"who","type":"rss","url":"https://www.who.int/feeds/entity/csr/don/en/rss.xml"},
-  {"name":"Africa CDC","tier":"gov","type":"html","url":"https://africacdc.org/news-item/"},
-  {"name":"News search: Ebola Kenya","tier":"media","type":"rss","url":"https://news.google.com/rss/search?q=ebola+kenya+when:2d&hl=en-KE&gl=KE&ceid=KE:en"}
+ {
+  "name": "Kenya Ministry of Health",
+  "tier": "gov",
+  "type": "html",
+  "url": "https://www.health.go.ke/",
+  "auto": true
+ },
+ {
+  "name": "WHO Disease Outbreak News",
+  "tier": "who",
+  "type": "rss",
+  "url": "https://www.who.int/feeds/entity/csr/don/en/rss.xml",
+  "auto": false
+ },
+ {
+  "name": "Africa CDC",
+  "tier": "gov",
+  "type": "html",
+  "url": "https://africacdc.org/news-item/",
+  "auto": false
+ },
+ {
+  "name": "News search: Ebola Kenya",
+  "tier": "media",
+  "type": "rss",
+  "url": "https://news.google.com/rss/search?q=ebola+kenya+when:2d&hl=en-KE&gl=KE&ceid=KE:en",
+  "auto": false
+ }
 ]

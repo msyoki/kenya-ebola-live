@@ -1,0 +1,5 @@
+{
+ "auto_ping": true,
+ "max_per_day": 2,
+ "allowed_domain_suffix": ".go.ke"
+}
