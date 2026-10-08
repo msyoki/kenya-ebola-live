@@ -1,28 +1,32 @@
 {
- "checked": "2026-10-08T11:41:38+00:00",
- "pending": 134,
+ "checked": "2026-10-08T12:29:03+00:00",
+ "pending": 142,
  "sources": [
   {
    "name": "Kenya Ministry of Health",
    "ok": false,
    "items": 0,
+   "auto": 0,
    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain "
   },
   {
    "name": "WHO Disease Outbreak News",
    "ok": false,
    "items": 0,
+   "auto": 0,
    "error": "HTTP Error 404: Not Found"
   },
   {
    "name": "Africa CDC",
    "ok": true,
-   "items": 0
+   "items": 0,
+   "auto": 0
   },
   {
    "name": "News search: Ebola Kenya",
    "ok": true,
-   "items": 34
+   "items": 8,
+   "auto": 0
   }
  ]
 }
