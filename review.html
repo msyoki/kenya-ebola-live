@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Review queue — Kenya Ebola Tracker</title>
+<style>
+:root{--bg:#f6f5f1;--card:#fff;--ink:#1c1c1a;--mute:#6b6a64;--line:#e4e2da;--alert:#b3261e;--alert-bg:#fbeae8;--ok:#1d6b43;--ok-bg:#e5f3ea;--warn:#8a5a00;--warn-bg:#fdf1d9;--gov:#0b5cad;--gov-bg:#e3effb}
+@media (prefers-color-scheme:dark){:root{--bg:#121211;--card:#1c1c1a;--ink:#efede6;--mute:#a09e95;--line:#33322e;--alert:#ff8a80;--alert-bg:#3a1a18;--ok:#7fd6a3;--ok-bg:#143022;--warn:#f0c264;--warn-bg:#352a10;--gov:#7db8f5;--gov-bg:#14263a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+.wrap{max-width:720px;margin:0 auto;padding:16px}
+h1{font-size:1.4rem;margin:4px 0}h2{font-size:1rem;margin:26px 0 10px;color:var(--mute)}
+.sub,.note{color:var(--mute);font-size:.85rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin-bottom:12px}
+label{display:block;font-size:.8rem;color:var(--mute);margin:10px 0 3px}
+input,select,textarea{width:100%;font:inherit;font-size:.95rem;padding:9px 10px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--ink)}
+textarea{min-height:70px;resize:vertical}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+button{font:inherit;font-size:.9rem;padding:9px 14px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+button.pri{background:var(--gov);border-color:var(--gov);color:#fff}button.bad{color:var(--alert);border-color:var(--alert)}
+button:disabled{opacity:.5}
+.btns{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
+.tag{display:inline-block;font-size:.7rem;font-weight:700;padding:2px 8px;border-radius:99px;margin-right:6px}
+.tag.gov{background:var(--gov-bg);color:var(--gov)}.tag.who{background:var(--ok-bg);color:var(--ok)}.tag.media{background:var(--warn-bg);color:var(--warn)}.tag.ke{background:var(--alert-bg);color:var(--alert)}
+a{color:var(--gov);word-break:break-all}
+#msg{position:sticky;top:0;z-index:5;padding:10px 12px;border-radius:10px;margin-bottom:10px;font-size:.9rem;display:none}
+#msg.ok{display:block;background:var(--ok-bg);color:var(--ok)}#msg.err{display:block;background:var(--alert-bg);color:var(--alert)}
+.item h3{font-size:1rem;margin:6px 0}.ev{display:flex;gap:10px;justify-content:space-between;align-items:flex-start;padding:8px 0;border-bottom:1px solid var(--line);font-size:.9rem}.ev:last-child{border:none}
+.src{font-size:.82rem;margin:2px 0}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Review queue</h1>
+  <p class="sub">Approve verified reports so they appear on the tracker. Only people with a repository token can publish.</p>
+  <div id="msg" role="status"></div>
+
+  <div class="card" id="conn">
+    <b>Connect</b>
+    <label for="repo">GitHub repository (owner/name)</label><input id="repo" placeholder="your-name/kenya-ebola-live" autocapitalize="off" autocorrect="off">
+    <div class="row"><div><label for="branch">Branch</label><input id="branch" value="main"></div>
+    <div><label for="tok">Access token</label><input id="tok" type="password" placeholder="github_pat_…" autocomplete="off"></div></div>
+    <p class="note">Use a fine-grained token limited to this one repository with “Contents: Read and write”. It is stored only in this browser and sent only to api.github.com. Don't use this on a shared device.</p>
+    <div class="btns"><button class="pri" id="connect">Connect</button><button id="signout">Sign out</button></div>
+  </div>
+
+  <div id="app" hidden>
+    <h2>Source checks</h2>
+    <div class="card" id="status"></div>
+
+    <h2>Waiting for review (<span id="pc">0</span>)</h2>
+    <div id="pending"></div>
+
+    <h2>Case numbers and banner</h2>
+    <div class="card">
+      <div class="row"><div><label>Confirmed cases</label><input id="s_conf" type="number" min="0"></div><div><label>Deaths</label><input id="s_dead" type="number" min="0"></div></div>
+      <div class="row"><div><label>Contacts listed</label><input id="s_cont" type="number" min="0"></div><div><label>In quarantine</label><input id="s_quar" type="number" min="0"></div></div>
+      <label>“As of” label</label><input id="s_asof" placeholder="8 Oct 2026">
+      <label>Banner text</label><textarea id="s_banner"></textarea>
+      <div class="btns"><button class="pri" id="saveStats">Publish changes</button></div>
+    </div>
+
+    <h2>Published reports</h2>
+    <div class="card" id="events"></div>
+  </div>
+  <p class="note">Public tracker: <a href="./">open</a></p>
+</div>
+<script>
+(function(){
+var $=function(i){return document.getElementById(i)};
+function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
+function safeUrl(u){return /^https?:\/\//.test(u||"")?esc(u):"#"}
+var LS=window.localStorage,cfg={repo:"",branch:"main",tok:""};
+function say(t,ok){var m=$("msg");m.textContent=t;m.className=ok?"ok":"err";if(ok)setTimeout(function(){if(m.textContent===t)m.className=""},4000)}
+function enc(o){return btoa(unescape(encodeURIComponent(JSON.stringify(o,null,1)+"\n")))}
+function dec(b){return JSON.parse(decodeURIComponent(escape(atob(b.replace(/\n/g,"")))))}
+function api(path,opt){opt=opt||{};opt.headers={"Authorization":"Bearer "+cfg.tok,"Accept":"application/vnd.github+json"};
+ return fetch("https://api.github.com/repos/"+cfg.repo+path,opt).then(function(r){return r.json().then(function(j){if(!r.ok){var e=new Error(j.message||r.status);e.status=r.status;throw e}return j})})}
+function getF(p){return api("/contents/"+p+"?ref="+encodeURIComponent(cfg.branch)+"&t="+Date.now()).then(function(j){return {v:dec(j.content),sha:j.sha}})}
+function putF(p,obj,sha,msg){return api("/contents/"+p,{method:"PUT",body:JSON.stringify({message:msg,content:enc(obj),sha:sha,branch:cfg.branch})})}
+function guess(){var h=location.hostname,p=location.pathname.split("/")[1];if(/\.github\.io$/.test(h)&&p)return h.split(".")[0]+"/"+p;return ""}
+function loadCfg(){try{cfg.repo=LS.getItem("kt_repo")||guess();cfg.branch=LS.getItem("kt_branch")||"main";cfg.tok=LS.getItem("kt_tok")||""}catch(e){}
+ $("repo").value=cfg.repo;$("branch").value=cfg.branch;$("tok").value=cfg.tok}
+var D=null,dSha=null,P=null,pSha=null,ST=null;
+
+function refresh(){
+ return Promise.all([getF("data/data.json"),getF("data/pending.json"),getF("data/status.json").catch(function(){return {v:null}})]).then(function(r){
+  D=r[0].v;dSha=r[0].sha;P=r[1].v;pSha=r[1].sha;ST=r[2].v;render()})
+}
+function render(){
+ $("app").hidden=false;$("conn").querySelector("b").textContent="Connected to "+cfg.repo;
+ // status
+ if(ST&&ST.checked){$("status").innerHTML='<div class="src">Last check: '+esc(new Date(ST.checked).toLocaleString())+'</div>'+ST.sources.map(function(s){return '<div class="src"><span class="dot" style="background:'+(s.ok?'var(--ok)':'var(--alert)')+'"></span>'+esc(s.name)+(s.ok?'':' — '+esc(s.error||'failed'))+'</div>'}).join("")}
+ else $("status").innerHTML='<div class="src">No check has run yet. In GitHub, open Actions → “Check for Ebola reports” → Run workflow.</div>';
+ // pending
+ $("pc").textContent=P.length;
+ $("pending").innerHTML=P.length?P.slice().reverse().map(function(p){var today=new Date().toISOString().slice(0,10);
+  return '<div class="card item" data-id="'+esc(p.id)+'"><span class="tag '+esc(p.tier)+'">'+({gov:"Government",who:"WHO",media:"Media"}[p.tier]||"Source")+'</span>'+(p.kenya?'<span class="tag ke">Mentions Kenya</span>':'')+'<span class="note">'+esc(p.source)+'</span><h3>'+esc(p.title)+'</h3><a href="'+safeUrl(p.url)+'" target="_blank" rel="noopener">Open source to verify</a>'
+  +'<label>Headline to publish</label><input class="f_t" value="'+esc(p.title)+'">'
+  +'<label>Summary (what the source confirms, in your words)</label><textarea class="f_x" placeholder="One or two sentences"></textarea>'
+  +'<div class="row"><div><label>Date</label><input class="f_d" type="date" value="'+today+'"></div><div><label>Type</label><select class="f_k"><option value="">Update</option><option value="crit">Key event (red)</option><option value="neg">Ruled out / good news (green)</option></select></div></div>'
+  +'<label>Source tier</label><select class="f_tier"><option value="gov"'+(p.tier==="gov"?" selected":"")+'>Government</option><option value="who"'+(p.tier==="who"?" selected":"")+'>WHO</option><option value="media"'+(p.tier==="media"?" selected":"")+'>Media</option></select>'
+  +'<div class="btns"><button class="pri a_ok">Approve and publish</button><button class="bad a_no">Reject</button></div></div>'}).join(""):'<div class="card note">Nothing waiting. New reports appear here after the next check.</div>';
+ $("pending").querySelectorAll(".item").forEach(function(c){var id=c.getAttribute("data-id");
+  c.querySelector(".a_ok").onclick=function(){approve(id,c,this)};c.querySelector(".a_no").onclick=function(){reject(id,this)}});
+ // stats
+ var k=D.kenya;$("s_conf").value=k.confirmed;$("s_dead").value=k.deaths;$("s_cont").value=k.contacts;$("s_quar").value=k.quarantined;$("s_asof").value=k.asof;$("s_banner").value=D.banner||"";
+ // events
+ $("events").innerHTML=D.events.slice().sort(function(a,b){return a.date<b.date?1:-1}).map(function(e){return '<div class="ev"><div><b>'+esc(e.title)+'</b><br><span class="note">'+esc(e.date)+' · '+esc(e.tier)+'</span></div><button class="bad" data-id="'+esc(e.id)+'">Remove</button></div>'}).join("");
+ $("events").querySelectorAll("button").forEach(function(b){b.onclick=function(){removeEv(b.getAttribute("data-id"),b)}});
+}
+function guard(btn,fn){btn.disabled=true;return fn().then(function(){return refresh()}).catch(function(e){say(e.status===401||e.status===403?"Not allowed. Check the token has Contents: Read and write for this repository.":e.status===404?"Repository or file not found. Check the repository name and branch.":e.status===409||e.status===422?"Someone else changed the data. Reloaded; please try again.":"Failed: "+e.message,false);return refresh().catch(function(){})}).then(function(){btn.disabled=false})}
+function today(){return new Date().toISOString().slice(0,10)}
+function approve(id,card,btn){
+ var t=card.querySelector(".f_t").value.trim(),x=card.querySelector(".f_x").value.trim();
+ if(!t){say("Add a headline first.",false);return}if(!x){say("Add a short summary of what the source confirms.",false);return}
+ guard(btn,function(){return refresh().then(function(){var it=P.filter(function(p){return p.id===id})[0];if(!it)throw new Error("Item is no longer in the queue");
+  D.events.unshift({id:it.id,date:card.querySelector(".f_d").value||today(),title:t,text:x,tier:card.querySelector(".f_tier").value,kind:card.querySelector(".f_k").value,url:it.url});D.updated=today();
+  return putF("data/data.json",D,dSha,"Publish: "+t.slice(0,60)).then(function(){return getF("data/pending.json")}).then(function(f){return putF("data/pending.json",f.v.filter(function(p){return p.id!==id}),f.sha,"Dequeue "+id)})}).then(function(){say("Published. The tracker updates within a minute or two.",true)})})}
+function reject(id,btn){guard(btn,function(){return Promise.all([getF("data/pending.json"),getF("data/rejected.json")]).then(function(r){var it=r[0].v.filter(function(p){return p.id===id})[0];
+  var rj=r[1].v;if(it)rj.push(it.url);return putF("data/rejected.json",rj,r[1].sha,"Reject "+id).then(function(){return putF("data/pending.json",r[0].v.filter(function(p){return p.id!==id}),r[0].sha,"Dequeue "+id)})}).then(function(){say("Rejected. It won't be queued again.",true)})})}
+function removeEv(id,btn){if(!confirm("Remove this report from the public tracker?"))return;guard(btn,function(){return getF("data/data.json").then(function(f){f.v.events=f.v.events.filter(function(e){return e.id!==id});f.v.updated=today();return putF("data/data.json",f.v,f.sha,"Remove report "+id)}).then(function(){say("Removed.",true)})})}
+$("saveStats").onclick=function(){var n=function(i){return parseInt($(i).value,10)};var v=[n("s_conf"),n("s_dead"),n("s_cont"),n("s_quar")];
+ if(v.some(function(x){return isNaN(x)||x<0})){say("Enter whole numbers (0 or more) for all four figures.",false);return}
+ if(v[1]>v[0]){say("Deaths cannot exceed confirmed cases here. Check the numbers.",false);return}
+ if(v[3]>v[2]){say("Quarantined cannot exceed contacts listed. Check the numbers.",false);return}
+ guard(this,function(){return getF("data/data.json").then(function(f){var d=f.v;d.kenya={confirmed:v[0],deaths:v[1],contacts:v[2],quarantined:v[3],asof:$("s_asof").value.trim()||d.kenya.asof};d.banner=$("s_banner").value.trim();d.updated=today();return putF("data/data.json",d,f.sha,"Update figures")}).then(function(){say("Published.",true)})})};
+$("connect").onclick=function(){cfg.repo=$("repo").value.trim();cfg.branch=$("branch").value.trim()||"main";cfg.tok=$("tok").value.trim();
+ if(!/^[\w.-]+\/[\w.-]+$/.test(cfg.repo)){say("Enter the repository as owner/name.",false);return}if(!cfg.tok){say("Paste your access token.",false);return}
+ try{LS.setItem("kt_repo",cfg.repo);LS.setItem("kt_branch",cfg.branch);LS.setItem("kt_tok",cfg.tok)}catch(e){}
+ var b=this;b.disabled=true;refresh().then(function(){say("Connected.",true)}).catch(function(e){$("app").hidden=true;say(e.status===401?"Token rejected. Check it hasn't expired.":e.status===404?"Repository, branch or data files not found — or the token can't see this repository.":"Couldn't connect: "+e.message,false)}).then(function(){b.disabled=false})};
+$("signout").onclick=function(){try{LS.removeItem("kt_tok")}catch(e){}cfg.tok="";$("tok").value="";$("app").hidden=true;$("conn").querySelector("b").textContent="Connect";say("Signed out. Token removed from this browser.",true)};
+loadCfg();if(cfg.repo&&cfg.tok)$("connect").click();
+})();
+</script>
+</body>
+</html>
