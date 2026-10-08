@@ -1,42 +1,255 @@
 {
-  "updated": "2026-10-08",
-  "kenya": {"confirmed": 1, "deaths": 1, "contacts": 57, "quarantined": 10, "asof": "7 Oct 2026"},
-  "banner": "Kenya's Ministry of Health says this is a single imported case under management, not a local outbreak. As of 7 Oct, UN/WHO reporting said no other infections had been identified.",
-  "capacity": [
-    ["Travellers screened", "652,000+"],
-    ["Suspected samples tested", "267"],
-    ["Health workers trained", "~5,000"],
-    ["Response fund", "KSh 2.6 billion"],
-    ["Entry points on heightened surveillance", "15"]
+ "updated": "2026-10-08",
+ "kenya": {
+  "confirmed": 1,
+  "deaths": 1,
+  "contacts": 57,
+  "quarantined": 10,
+  "asof": "7 Oct 2026"
+ },
+ "banner": "Kenya's Ministry of Health says this is a single imported case under management, not a local outbreak. As of 7 Oct, UN/WHO reporting said no other infections had been identified.",
+ "capacity": [
+  [
+   "Travellers screened",
+   "652,000+"
   ],
-  "regional": [
-    "DRC: confirmed cases reported above 8,300 and deaths above 4,000 across seven provinces.",
-    "Uganda: 20 cases and 2 deaths earlier this year; declared Ebola-free in August.",
-    "Kenya is the fourth country to confirm a Bundibugyo case in this outbreak (WHO).",
-    "WHO advises against travel or trade restrictions on Kenya, DRC and Uganda."
+  [
+   "Suspected samples tested",
+   "267"
   ],
-  "events": [
-    {"id":"e7","date":"2026-10-07","title":"57 contacts listed, 10 quarantined","text":"MoH says contact tracing continues and numbers will rise. Quarantined contacts are held at the National Police Service Hospital. The Ministry stresses this is an imported case, not an outbreak.","tier":"gov","kind":"crit","url":"https://www.health.go.ke/kenya-strengthens-ebola-preparedness-and-contact-tracing"},
-    {"id":"e6","date":"2026-10-06","title":"Kenya confirms first Ebola case (Bundibugyo)","text":"Health CS Aden Duale announces the first confirmed case: a Kenyan who had lived in DRC for years, died at Nairobi Hospital. Confirmed by the National Virology Reference Laboratory and KEMRI.","tier":"gov","kind":"crit","url":"https://www.cidrap.umn.edu/ebola/kenya-reports-its-first-ebola-case-man-who-died-after-arriving-dr-congo"},
-    {"id":"e5","date":"2026-10-03","title":"Patient's journey into Kenya","text":"Per WHO: road from DRC via Beni to Kampala on 2 Oct, Jambojet flight to Nairobi on 3 Oct, passed airport screening, isolated at Nairobi Hospital.","tier":"who","kind":"","url":"https://news.un.org/en/story/2026/10/1168542"},
-    {"id":"e4","date":"2026-08-15","title":"Uganda declared Ebola-free","text":"Uganda ends its outbreak after 20 cases and 2 deaths.","tier":"media","kind":"neg","url":"https://www.aljazeera.com/news/2026/10/6/kenya-confirms-first-ebola-case-after-patient-from-dr-congo-dies-in-nairobi"},
-    {"id":"e3","date":"2026-06-03","title":"Reported Turkish national case ruled out","text":"PS Mary Muthoni says testing showed the patient was negative, dismissing social-media reports.","tier":"gov","kind":"neg","url":"https://citizen.digital/article/moh-dismisses-reports-of-suspected-ebola-case-in-kenya-n383891"},
-    {"id":"e2","date":"2026-05-30","title":"16 suspected cases tested, all negative","text":"CS Duale says people who had travelled from DRC or Uganda were tested and monitored.","tier":"gov","kind":"neg","url":"https://peopledaily.digital/news/cs-duale-16-suspected-ebola-cases-have-been-tested"},
-    {"id":"e1","date":"2026-05-16","title":"MoH issues first advisory","text":"After the outbreak is confirmed in Ituri, DRC, the Ministry reports no cases in Kenya and activates preparedness measures. WHO declares a global health emergency the same day.","tier":"gov","kind":"","url":"https://peopledaily.digital/news/ministry-of-health-issues-advisory-to-kenyans-after-ebola-outbreak-in-drc/amp"}
+  [
+   "Health workers trained",
+   "~5,000"
   ],
-  "order": ["ituri","beni","kampala","nairobi","eldoret","mombasa","kisumu"],
-  "places": {
-    "ituri":{"n":"Ituri Province, DRC","lo":30.25,"la":1.56,"c":"warn","d":"15 May 2026","t":"Outbreak declared here. The DRC has since reported 8,300+ confirmed cases across seven provinces.","cap":"The outbreak was declared in Ituri, DRC in May 2026."},
-    "beni":{"n":"Beni, DRC","lo":29.47,"la":0.5,"c":"alert","d":"2 Oct 2026","t":"Per WHO, the patient travelled by road through Beni towards Uganda after about a month of illness.","cap":"2 Oct: the patient travels by road from DRC (via Beni) towards Kampala."},
-    "kampala":{"n":"Kampala / Entebbe, Uganda","lo":32.58,"la":0.3,"c":"alert","d":"2–3 Oct 2026","t":"Reached Kampala 2 Oct, flew Jambojet to Nairobi 3 Oct. MoH says he had a normal temperature at Entebbe screening.","cap":"3 Oct: he flies from Kampala/Entebbe to Nairobi."},
-    "nairobi":{"n":"Nairobi, Kenya","lo":36.82,"la":-1.29,"c":"alert","d":"3–7 Oct 2026","t":"Landed at JKIA, taken to Nairobi Hospital, isolated. Confirmed 6 Oct; patient died. 57 contacts listed, 10 quarantined (7 Oct).","cap":"6 Oct: Kenya confirms Bundibugyo virus. First case; patient has died.","pulse":true,"hub":true},
-    "eldoret":{"n":"Eldoret — Moi Teaching & Referral Hospital","lo":35.27,"la":0.52,"c":"gov","d":"Designated isolation site","t":"50 isolation beds (MoH, 7 Oct). No cases reported here.","cap":"Isolation and testing sites are on alert. No other cases reported."},
-    "mombasa":{"n":"Mombasa — Port Reitz Hospital","lo":39.62,"la":-4.03,"c":"gov","d":"Designated isolation site","t":"4 isolation beds (MoH, 7 Oct). No cases reported here.","cap":""},
-    "kisumu":{"n":"Kisumu — KEMRI lab","lo":34.77,"la":-0.09,"c":"gov","d":"Designated testing centre","t":"A national Ebola testing site named by MoH. No cases reported here.","cap":""}
+  [
+   "Response fund",
+   "KSh 2.6 billion"
+  ],
+  [
+   "Entry points on heightened surveillance",
+   "15"
+  ]
+ ],
+ "regional": [
+  "DRC: confirmed cases reported above 8,300 and deaths above 4,000 across seven provinces.",
+  "Uganda: 20 cases and 2 deaths earlier this year; declared Ebola-free in August.",
+  "Kenya is the fourth country to confirm a Bundibugyo case in this outbreak (WHO).",
+  "WHO advises against travel or trade restrictions on Kenya, DRC and Uganda."
+ ],
+ "events": [
+  {
+   "id": "0e6c078c78",
+   "date": "2026-10-08",
+   "title": "US issues ebola alert to American in Kenya - The Star, Kenya",
+   "text": "US issues ebola alert to American in Kenya",
+   "tier": "media",
+   "kind": "",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbERHdnlxdDBscnZObDFFTUM5ZzBaY2FBa0lWY1ZNdTh4cTVsb3I5ZDlMcmlfamVyc0h0amI5SW53Q2hINklseEtzV2xxQmltUlB5S1plYThTLW9Icno0X2dGWG5YOUZ5Ujk5QlFNOFlyMndrNVBBelNLQWZ0d0ozYi1wbmZpS2dFNW9Kamp5SQ?oc=5"
   },
-  "routes": [{"a":"beni","b":"kampala","k":"road"},{"a":"kampala","b":"nairobi","k":"air"}],
-  "nairobi": {
-    "nodes":[{"id":"jkia","x":50,"y":35,"t":"JKIA airport","s":"Landed 3 Oct","c":"alert"},{"id":"nh","x":160,"y":75,"t":"Nairobi Hospital","s":"Isolation, 133 beds","c":"alert","pulse":true},{"id":"nps","x":270,"y":35,"t":"Police Hospital","s":"10 quarantined","c":"gov"},{"id":"knh","x":270,"y":115,"t":"Kenyatta Hospital","s":"Isolation, 8 beds","c":"gov"}],
-    "links":[["jkia","nh","route"],["nh","nps","net"],["nh","knh","net"]]
+  {
+   "id": "e7",
+   "date": "2026-10-07",
+   "title": "57 contacts listed, 10 quarantined",
+   "text": "MoH says contact tracing continues and numbers will rise. Quarantined contacts are held at the National Police Service Hospital. The Ministry stresses this is an imported case, not an outbreak.",
+   "tier": "gov",
+   "kind": "crit",
+   "url": "https://www.health.go.ke/kenya-strengthens-ebola-preparedness-and-contact-tracing"
+  },
+  {
+   "id": "e6",
+   "date": "2026-10-06",
+   "title": "Kenya confirms first Ebola case (Bundibugyo)",
+   "text": "Health CS Aden Duale announces the first confirmed case: a Kenyan who had lived in DRC for years, died at Nairobi Hospital. Confirmed by the National Virology Reference Laboratory and KEMRI.",
+   "tier": "gov",
+   "kind": "crit",
+   "url": "https://www.cidrap.umn.edu/ebola/kenya-reports-its-first-ebola-case-man-who-died-after-arriving-dr-congo"
+  },
+  {
+   "id": "e5",
+   "date": "2026-10-03",
+   "title": "Patient's journey into Kenya",
+   "text": "Per WHO: road from DRC via Beni to Kampala on 2 Oct, Jambojet flight to Nairobi on 3 Oct, passed airport screening, isolated at Nairobi Hospital.",
+   "tier": "who",
+   "kind": "",
+   "url": "https://news.un.org/en/story/2026/10/1168542"
+  },
+  {
+   "id": "e4",
+   "date": "2026-08-15",
+   "title": "Uganda declared Ebola-free",
+   "text": "Uganda ends its outbreak after 20 cases and 2 deaths.",
+   "tier": "media",
+   "kind": "neg",
+   "url": "https://www.aljazeera.com/news/2026/10/6/kenya-confirms-first-ebola-case-after-patient-from-dr-congo-dies-in-nairobi"
+  },
+  {
+   "id": "e3",
+   "date": "2026-06-03",
+   "title": "Reported Turkish national case ruled out",
+   "text": "PS Mary Muthoni says testing showed the patient was negative, dismissing social-media reports.",
+   "tier": "gov",
+   "kind": "neg",
+   "url": "https://citizen.digital/article/moh-dismisses-reports-of-suspected-ebola-case-in-kenya-n383891"
+  },
+  {
+   "id": "e2",
+   "date": "2026-05-30",
+   "title": "16 suspected cases tested, all negative",
+   "text": "CS Duale says people who had travelled from DRC or Uganda were tested and monitored.",
+   "tier": "gov",
+   "kind": "neg",
+   "url": "https://peopledaily.digital/news/cs-duale-16-suspected-ebola-cases-have-been-tested"
+  },
+  {
+   "id": "e1",
+   "date": "2026-05-16",
+   "title": "MoH issues first advisory",
+   "text": "After the outbreak is confirmed in Ituri, DRC, the Ministry reports no cases in Kenya and activates preparedness measures. WHO declares a global health emergency the same day.",
+   "tier": "gov",
+   "kind": "",
+   "url": "https://peopledaily.digital/news/ministry-of-health-issues-advisory-to-kenyans-after-ebola-outbreak-in-drc/amp"
   }
+ ],
+ "order": [
+  "ituri",
+  "beni",
+  "kampala",
+  "nairobi",
+  "eldoret",
+  "mombasa",
+  "kisumu"
+ ],
+ "places": {
+  "ituri": {
+   "n": "Ituri Province, DRC",
+   "lo": 30.25,
+   "la": 1.56,
+   "c": "warn",
+   "d": "15 May 2026",
+   "t": "Outbreak declared here. The DRC has since reported 8,300+ confirmed cases across seven provinces.",
+   "cap": "The outbreak was declared in Ituri, DRC in May 2026."
+  },
+  "beni": {
+   "n": "Beni, DRC",
+   "lo": 29.47,
+   "la": 0.5,
+   "c": "alert",
+   "d": "2 Oct 2026",
+   "t": "Per WHO, the patient travelled by road through Beni towards Uganda after about a month of illness.",
+   "cap": "2 Oct: the patient travels by road from DRC (via Beni) towards Kampala."
+  },
+  "kampala": {
+   "n": "Kampala / Entebbe, Uganda",
+   "lo": 32.58,
+   "la": 0.3,
+   "c": "alert",
+   "d": "2–3 Oct 2026",
+   "t": "Reached Kampala 2 Oct, flew Jambojet to Nairobi 3 Oct. MoH says he had a normal temperature at Entebbe screening.",
+   "cap": "3 Oct: he flies from Kampala/Entebbe to Nairobi."
+  },
+  "nairobi": {
+   "n": "Nairobi, Kenya",
+   "lo": 36.82,
+   "la": -1.29,
+   "c": "alert",
+   "d": "3–7 Oct 2026",
+   "t": "Landed at JKIA, taken to Nairobi Hospital, isolated. Confirmed 6 Oct; patient died. 57 contacts listed, 10 quarantined (7 Oct).",
+   "cap": "6 Oct: Kenya confirms Bundibugyo virus. First case; patient has died.",
+   "pulse": true,
+   "hub": true
+  },
+  "eldoret": {
+   "n": "Eldoret — Moi Teaching & Referral Hospital",
+   "lo": 35.27,
+   "la": 0.52,
+   "c": "gov",
+   "d": "Designated isolation site",
+   "t": "50 isolation beds (MoH, 7 Oct). No cases reported here.",
+   "cap": "Isolation and testing sites are on alert. No other cases reported."
+  },
+  "mombasa": {
+   "n": "Mombasa — Port Reitz Hospital",
+   "lo": 39.62,
+   "la": -4.03,
+   "c": "gov",
+   "d": "Designated isolation site",
+   "t": "4 isolation beds (MoH, 7 Oct). No cases reported here.",
+   "cap": ""
+  },
+  "kisumu": {
+   "n": "Kisumu — KEMRI lab",
+   "lo": 34.77,
+   "la": -0.09,
+   "c": "gov",
+   "d": "Designated testing centre",
+   "t": "A national Ebola testing site named by MoH. No cases reported here.",
+   "cap": ""
+  }
+ },
+ "routes": [
+  {
+   "a": "beni",
+   "b": "kampala",
+   "k": "road"
+  },
+  {
+   "a": "kampala",
+   "b": "nairobi",
+   "k": "air"
+  }
+ ],
+ "nairobi": {
+  "nodes": [
+   {
+    "id": "jkia",
+    "x": 50,
+    "y": 35,
+    "t": "JKIA airport",
+    "s": "Landed 3 Oct",
+    "c": "alert"
+   },
+   {
+    "id": "nh",
+    "x": 160,
+    "y": 75,
+    "t": "Nairobi Hospital",
+    "s": "Isolation, 133 beds",
+    "c": "alert",
+    "pulse": true
+   },
+   {
+    "id": "nps",
+    "x": 270,
+    "y": 35,
+    "t": "Police Hospital",
+    "s": "10 quarantined",
+    "c": "gov"
+   },
+   {
+    "id": "knh",
+    "x": 270,
+    "y": 115,
+    "t": "Kenyatta Hospital",
+    "s": "Isolation, 8 beds",
+    "c": "gov"
+   }
+  ],
+  "links": [
+   [
+    "jkia",
+    "nh",
+    "route"
+   ],
+   [
+    "nh",
+    "nps",
+    "net"
+   ],
+   [
+    "nh",
+    "knh",
+    "net"
+   ]
+  ]
+ }
 }
