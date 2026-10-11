@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-11T18:30:47+00:00",
+ "checked": "2026-10-11T22:33:53+00:00",
  "pending": 200,
  "sources": [
   {
@@ -25,7 +25,7 @@
   {
    "name": "News search: Ebola Kenya",
    "ok": true,
-   "items": 14,
+   "items": 2,
    "auto": 0
   }
  ]
