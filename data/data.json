@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08",
+ "updated": "2026-10-14",
  "kenya": {
   "confirmed": 1,
   "deaths": 1,
@@ -37,6 +37,15 @@
   "WHO advises against travel or trade restrictions on Kenya, DRC and Uganda."
  ],
  "events": [
+  {
+   "id": "1bff3e47a1",
+   "date": "2026-10-14",
+   "title": "Kenya records second Ebola case, Ministry of Health confirms - Pulse Kenya",
+   "text": "Breaking news",
+   "tier": "media",
+   "kind": "crit",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNV2xlTGlkSks0M3BoOGpYU2E5ME5zd1ZtMWJyV3lvdzQwV0UxcEEwZ0tkdmJ0OUxvenBHQ3puR2c0VFRLUEhHQXQ0SG5acVozMGI1d0RHRDVORWgwajdkR2FROF92TEZXd0F0YjhUVnVOd1NsZF9yLW1hTFBLUUdiVHdwRUZFZER0d3F1VkVweG0wQ1NlbHlTVkZsUXRBZ2RzVHpBNDBMMA?oc=5"
+  },
   {
    "id": "54e85ed1be",
    "date": "2026-10-08",
