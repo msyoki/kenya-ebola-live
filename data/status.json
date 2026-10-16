@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-15T22:45:11+00:00",
+ "checked": "2026-10-16T00:52:59+00:00",
  "pending": 200,
  "sources": [
   {
@@ -21,12 +21,12 @@
    "ok": false,
    "items": 0,
    "auto": 0,
-   "error": "HTTP Error 500: Internal Server Error"
+   "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
   },
   {
    "name": "News search: Ebola Kenya",
    "ok": true,
-   "items": 8,
+   "items": 0,
    "auto": 0
   }
  ]
