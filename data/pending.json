@@ -1,93 +1,5 @@
 [
  {
-  "id": "73e2d60599",
-  "title": "Congo’s Ebola infections surpass 9,000, government report shows - NTV Kenya",
-  "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNYW5tQzNfSzczLVBIN2Z2UVBtMnl0UTYxZnA0cVh6emtpc0dvTkZwWVRLRXhSWk1RLXByRDk5TlRlenlNOFpEQzBsWnRFOVJqQ0dkeFA1SlhmYUwxLW5iRlJHVUVOZTMtenpKc3BBSDIwNFJfakZsWmQ0T19BOENTXzVUN21mLU1kYmVPejZJVHpMZkE?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Tue, 13 Oct 2026 12:54:57 GMT",
-  "found": "2026-10-13T15:10:08+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
-  "id": "adccaffcfb",
-  "title": "Kenya gazettes new Ebola screening and quarantine rules - China Daily",
-  "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE02T3VjTW8xZ3VBV3BHTHZRNkFPUmk4eEcwTUYwUkFENHFvS3lFNm14c015QnVXR0F0bmM2bHJYVHNlSTc0ODM4MzhTTTZjbmFyNG44ZjM0dmtJV0tHakxKa3FvYkdNX0JKcTdjeFY1d2JTd3VZZmZSeVl2T0hFdw?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Tue, 13 Oct 2026 11:14:50 GMT",
-  "found": "2026-10-13T15:10:08+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
-  "id": "914e050d30",
-  "title": "Kenya’s Imported Ebola Case Raises Questions About Screening and IPC Readiness - Infection Control Today",
-  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNWJvNmZFTno5Q0hMeDJQN2F3THZQa29Hd1lrdkZTaV9JTTRTb012UVN2cGlkLVlFS2t5bzlSejNFX1Q4QUVGTzlyVExMZTlsZzBhMnh1Mk90dVhOS2p4YkhmUm1jdDRVWXpON1E1UGpOejNZTWtxSmY5NnREb3hkaTBvazR4bnNMWWxKZVB6UUYxbW45SU5RdnQweXBWOFdoWmZUaEl3OGNTOFY3SkR0Zw?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Tue, 13 Oct 2026 13:47:05 GMT",
-  "found": "2026-10-13T15:10:08+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
-  "id": "f5b3e600a2",
-  "title": "Government Spokesperson Charles Owino speaking at Harambee Annex, Nairobi on Monday 12th October, 2026 when he assured Kenyans that the Cabinet Secretary for Health and Principal Secretaries would continue updating the public on the Ebola case - Facebook",
-  "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOSkhXTlJIUVB0d1FmZ3BlTUJmeUU4clU5ZTFLMGcwNlZQVXNubU45eHEtY2tCYUNCQ2hEdG9SSEZmWDBzYklyNEpjV3djQ3o4RjBveWd4M05GVHFybXB5U3U5Unh6cFJ6cUQ2Z2dZdkMyU05PRzB4bXhKTjQ5MlZiTXZnREZseTd0ZDF5RWhGREVhNlJKRmVwREFKUDlqUHhFT1hMXzJFemJSeUtzY2FvcHptOXZSZUQzX0lqMGRIU2FMZnFOWjVGeUxpWlJTV050Q25WQ2F2US1kOXA0NkE?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Tue, 13 Oct 2026 08:34:09 GMT",
-  "found": "2026-10-13T15:10:08+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
-  "id": "f5d584d844",
-  "title": "Kenya registers no new Ebola case from 293 tests - TRT Afrika",
-  "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5hQW00d0JNUzViaG8zbXYxb2dnd19faG1XTWdwUmR4WnVKR1NpdTJuQVpzakROWDFpRzhvdUticDNwcHdia2YzT1lKQlpGUHFWTXY1RkVacFJWU1hadkRVNXg0dW4?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Tue, 13 Oct 2026 02:12:45 GMT",
-  "found": "2026-10-13T15:10:08+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
-  "id": "5c7be25fbd",
-  "title": "MSC suspends Kenyan crew deployments over Ebola case - Nairobi Law Monthly",
-  "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYUc3V1VCVTBhZzFHMVM4dC1ibVNqS0xZTUhYZXU1U1F2WHlqV0EyMGpsUV9WRmMxM09QTU12SldXQ0FfMHYzTUJvOS1HRGxXRmNMTWNfRWMyVlBPUUt2Qlc1aWVrdGNieEhVRjFuUTduby1WUkFrM0o3Q0hvNmJmd2FvbVlMYjF0aFI0?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Tue, 13 Oct 2026 13:09:13 GMT",
-  "found": "2026-10-13T15:10:08+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
-  "id": "8ad3643133",
-  "title": "Ebola: PS Muthoni holds talks with UNICEF as Kenya steps up response - People Daily",
-  "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMDlsZFJjSE1zU2owOXZ0eUU3RDdWUlh5dk9LRkI1cE1tVjdrWXlveWYxcFVFNjRfZ0c5SWR2eFdKU28taWhDWmJvRm5iTVJGX1RINWFxaVRjOHVnN3g1eWFqaXJzSHhEVlJESjkwbXRMWEFkdHRJMGdDMWtNWGhFM3pkUmxHN0JmY1czc2JSaVJQR0hTWFFPMnh5NlgzODhTUkE?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Tue, 13 Oct 2026 09:40:20 GMT",
-  "found": "2026-10-13T15:10:08+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
-  "id": "e98500d9a2",
-  "title": "Kenya introduces strict Ebola control rules, makes quarantine violations an offence - Sifa FM Kenya",
-  "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOazdoQ1hCeEpBblNCTWRodGZubVZKT3NzajMwZjhFRnh0Z3Q1ZHpGdE1DYUJMTFZVdUVjVEN1NlUwcS1uRTFLTmtKZnVEMHVkRkRnZDdSTE4yS25Ic0V0ZGJNY29oWHlBX0ZxZjBPVXFodGQyTnc0NjhHb2g1a3lsVFJFWGd2bnNubE1MaDZtT1VYUEdQd1FHSlZyaDY5N0hZcjFMemZTbw?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Tue, 13 Oct 2026 05:48:30 GMT",
-  "found": "2026-10-13T15:10:08+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
   "id": "54e2bfd552",
   "title": "Letter from Mogadishu: Nairobi Ebola virus case has the region sneezing - The Standard",
   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPLTRDZVBwMmVFLWUyRFk0NjB3YllWOW5sbkx3c2I3aTBWMTJFa3ZrbVIyZWU2YjFJU3B1WU1mMzYwcVJEeVpaQ3o1dTVDenZPVk8wLXc2VU1TMEhKcmVYOFFHcFV5SnExLUFjd1NMYTZnNUdOUTVIWXhpalpiN08yV0dvQkJlMTBXYXR5UWRZRTg0TG1aNnhESnA2Rld2LWVmelFIN2d2WWV2Q2ZkZ29Mc1BlV3FWR3dOZ1FfQS1DbHlJcWVwRDlXVg?oc=5",
@@ -2196,6 +2108,94 @@
   "tier": "media",
   "published": "Wed, 14 Oct 2026 20:07:00 GMT",
   "found": "2026-10-16T09:58:41+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "2f5eec2e52",
+  "title": "Kenya's race to contain Ebola: Two cases, one death, and a health system caught off guard - DW.com",
+  "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQaWJmUWttd0VFVTlCMTZUTm9waHZIV1poUFhBTW9IUFZwRldFMmNxTW5tWUlnSVFGZGxVNllkbFRnNG41cklMZlQ3cl9jRXB2QXBKOVg4Z0toWXRudmRVUTJ1Sm5YY0FURkNRdmhzdHBWRlRrVlNGUnNsNktiSGg1aUxR0gGCAUFVX3lxTFBfa1MyOU1QZG9Pd01HZ2xzTlQtbzBJeUpMZ2dwcm1mVUhqZmg3NkNvVS0yVXQzQjJYV2E5OHExakl6ZDl5dlUxc2dZVDR3MERuSllXa2JiNHhfMVBHT0ZsTURGeEpwYm8zdk1SVHNXdzNMcDdBcDJYWUp6Y3V6bTA2VkE?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Fri, 16 Oct 2026 10:51:09 GMT",
+  "found": "2026-10-16T14:32:36+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "75ff80d09d",
+  "title": "Kenya on high alert as Ebola outbreak in DR Congo fuels border fears - Africanews English",
+  "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQkNzcEtOaDlhRDFZa3BnaXU1R2cwb0xBYWpBRkNreGc1MmlFblUxTXZyaUhDSzdwRmtGUkVQMkdMYUhTZExaRGdsYzVyVml6R1E2c01DWmN2VmJzZGdzWnZTNG1HbXFCVUk3dXZTZVdfTFVSNVh6QlVBNjVkNHFWY3dZTVZMZUZnamZicHp1a29YQVJCYXNPZ2EwX3FqM09KWEpkRTBfSlpKTGs?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Fri, 16 Oct 2026 11:57:55 GMT",
+  "found": "2026-10-16T14:32:36+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "2bd2d5ed43",
+  "title": "No confirmed Ebola case, official clarifies - Kenya News Agency",
+  "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9xVWJaWXlHSlpjRm5wRElMaUJHTHlJUHRxZmh5a0hTb0dSNDQ4eTVyU1FYYUR1RUJjX1FSNmh5RkZoUkZnLU56OG9adEtXbjVGWVEtcG5Qa2RiTlp4TTlkckJpTVZ6TnV6bXhJOVVDYWltalJxVFUyOFVuUQ?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Fri, 16 Oct 2026 11:23:58 GMT",
+  "found": "2026-10-16T14:32:36+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "8d19ac9982",
+  "title": "Second Ebola Case Confirmed In Kenya - RTTNews",
+  "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdkMxeGNNRnNUOTdFYkM2QllYR213WXJjMmJWeG93aXp3N0pRQTZ5Z2h1dFk3U29UVzgxQl9pRUtST0hOa2FmbFRGWkZIN3lhNnN2ZTF0TlFTb2t0cTRScTBPTXlKeUxaaFpVUWZRSHFyWFE5Z2VtcG42bW0wRWYxMjdPWQ?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Fri, 16 Oct 2026 12:02:00 GMT",
+  "found": "2026-10-16T14:32:36+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "3cc1b2dd7e",
+  "title": "WHO urges vigilance after Kenya confirms second Ebola case - The European Sting",
+  "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNVp3SG8yNjQ2T2Z4bU5iX3VJTUkyVWpibFB4bWJ4dmltWlEyeE9MQ2pvaXBpc0tONUZtVmJWM2FLNloxeTZnRzBNYWE5UGJUUjRzNUhRUXR4RG9BR0hza21KS3NxWUxIRm1TbjN3OFJNNDRwZnQ0OVVKZ2NRODBmYldhUUpmRnlSUmlQcHdUREVRZXJWY2dlV3FlZVo?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Fri, 16 Oct 2026 10:38:34 GMT",
+  "found": "2026-10-16T14:32:36+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "0733feaa1a",
+  "title": "WHO Urges Vigilance After Kenya Confirms Second Ebola Case - Dawan Africa",
+  "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSEVndGpzWFo5Yk4yaVVSTDZGVDB0MUxVUGl2RlRzcnFCOHVRZ21ubnNQZk9kMzNJX3h2N0pWRGtlV1dod2VieFZ6QkJ5aUgyejRGcEppckFkODdmUlYzc0dGcHloU2xHSS1WZ2EzRHQzMHRJaWJ0bmdZNEZBZWJqQk40aTNWRk5wS09QV3MwZVBUQQ?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Fri, 16 Oct 2026 10:04:07 GMT",
+  "found": "2026-10-16T14:32:36+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "14462b7a67",
+  "title": "WHO urges vigilance after Kenya confirms second Ebola case - Global Issues.org",
+  "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1XbmdHNkdvVWJOdGJnemozcEVROFpEeENrd2h6VmtFZkluQUd0dEU2SERudGFmWE1seXpVaHNjT1ZVVk9XQ0dQb2QtUkNOdkJubEpfNmQzZHVMRGJwWUVUY0VKM2PSAWRBVV95cUxNV25nRzZHb1ViTnRiZ3pqM3BFUThaRHhDa3doelZrRWZJbkFHdHRFNkhEbnRhZlhNbHl6VWhzY09WVVZPV0NHUG9kLVJDTnZCbmxKXzZkM2R1TERicFlFVGNFSjNj?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Thu, 15 Oct 2026 12:00:00 GMT",
+  "found": "2026-10-16T14:32:36+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "7e44ef14b2",
+  "title": "WHO Urges Vigilance After Kenya Confirms Second Ebola Case - Uganda Radionetwork",
+  "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPanh5WHNFZzBVUTRDYk5JeGpkZkR3VXNmNUJOZFNDUmFObVFDbFQwdXlmdW9IbHlQS2RxQWQ0QTk2LWJyV3d3NWtkUzVVYW9ybjFkUFdtVk16elRnR25ScWxKNnBjbWR4bHRvNHI4SWNzeWdudEp2R0lJYUZRVmM0cU9PQ2JPSklBM01adTBFSUhXLTEzRm8zNTRuVXc?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Fri, 16 Oct 2026 04:01:51 GMT",
+  "found": "2026-10-16T14:32:36+00:00",
   "kenya": true,
   "auto_skip": ""
  }
