@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-19T10:29:15+00:00",
+ "checked": "2026-10-19T17:04:39+00:00",
  "pending": 200,
  "sources": [
   {
@@ -18,15 +18,14 @@
   },
   {
    "name": "Africa CDC",
-   "ok": false,
-   "items": 0,
-   "auto": 0,
-   "error": "The read operation timed out"
+   "ok": true,
+   "items": 1,
+   "auto": 0
   },
   {
    "name": "News search: Ebola Kenya",
    "ok": true,
-   "items": 34,
+   "items": 35,
    "auto": 0
   }
  ]
