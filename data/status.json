@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-20T00:46:43+00:00",
+ "checked": "2026-10-20T05:29:36+00:00",
  "pending": 200,
  "sources": [
   {
@@ -18,14 +18,15 @@
   },
   {
    "name": "Africa CDC",
-   "ok": true,
+   "ok": false,
    "items": 0,
-   "auto": 0
+   "auto": 0,
+   "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
   },
   {
    "name": "News search: Ebola Kenya",
    "ok": true,
-   "items": 11,
+   "items": 16,
    "auto": 0
   }
  ]
