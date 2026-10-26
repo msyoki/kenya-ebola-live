@@ -1,13 +1,12 @@
 {
- "checked": "2026-10-26T06:32:11+00:00",
+ "checked": "2026-10-26T13:41:50+00:00",
  "pending": 200,
  "sources": [
   {
    "name": "Kenya Ministry of Health",
-   "ok": false,
+   "ok": true,
    "items": 0,
-   "auto": 0,
-   "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain "
+   "auto": 0
   },
   {
    "name": "WHO Disease Outbreak News",
@@ -25,7 +24,7 @@
   {
    "name": "News search: Ebola Kenya",
    "ok": true,
-   "items": 24,
+   "items": 22,
    "auto": 0
   }
  ]
