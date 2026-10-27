@@ -1,27 +1,5 @@
 [
  {
-  "id": "d10d84e983",
-  "title": "Kenya’s Ebola Death Toll Rises as Ministry Lists Measures to Stop Spread - Kenyans.co.ke",
-  "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVUUtSFJvYW9nMlFXSnd5NGE4SXpjSUVvc0V4ejlZY2J2VXRnU0w5RFAxNGt2OS1pVW1pWmM1S1RwcW9RYUdqcEZ3WXNpN0UweUpLc2FoSDVhOFRTckpwR3pmekRUdklSTUxBcUZZbXpmczlqY2JlRTUzWGFESlNxU01BdHVHMER1bnY2LXlZaE9hZjF0MHZSNVZKdzBWOHV4R2VKS21qV0tDMU5FSWJr?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Sat, 24 Oct 2026 04:10:57 GMT",
-  "found": "2026-10-24T07:28:18+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
-  "id": "329fd558b3",
-  "title": "Ebola death toll hits two in Kenya - Radiokaya",
-  "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5mQlFCQzczcndhQTlrY2FUWTFncTltalM4R0JVMlVlOXozTE9TRTFVN1JYYnFTQ1FmOWtBV3RvYXVMUV93TGg0MVBOUng0UkRTbzZuaVZNQlRxYTYyY2JFaGxkQjlKVnE4amFF?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Sat, 24 Oct 2026 05:39:22 GMT",
-  "found": "2026-10-24T07:28:18+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
   "id": "eed7b870c8",
   "title": "Kenya Confirms Second Death from Ebola - تسنیم",
   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRjFmYU03TDVRUkJGRzk3U2daN19TSkptYk84RGhKODgxc1RacHFrQlE3OV82WWNmMWlDZFZ0bnpVQUZaVnZyUFd1QXlVeTE0dE0ya2J2WExJTHNRWC16TlZxRC1VVTJ3WkkyaGM0ZHdyZ0NZel9NODJCTDlTTnhFb2FmVUZ6YmNqcXp0cmpKU2NsUm54WVVIZE5rb9IBmwFBVV95cUxPRjFmYU03TDVRUkJGRzk3U2daN19TSkptYk84RGhKODgxc1RacHFrQlE3OV82WWNmMWlDZFZ0bnpVQUZaVnZyUFd1QXlVeTE0dE0ya2J2WExJTHNRWC16TlZxRC1VVTJ3WkkyaGM0ZHdyZ0NZel9NODJCTDlTTnhFb2FmVUZ6YmNqcXp0cmpKU2NsUm54WVVIZE5rbw?oc=5",
@@ -2196,6 +2174,28 @@
   "tier": "media",
   "published": "Mon, 26 Oct 2026 15:20:07 GMT",
   "found": "2026-10-26T23:26:10+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "1a7e8163fa",
+  "title": "Kenya urged to sustain Ebola safeguards as contact tracing continues - The Standard",
+  "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUWZwYVFINlVSQ1V4NUVtM1lwQlEyMzJOb0hJczc2dm54ZnVxQk91cHBRclNsWXZoNjFNSWh2R0ZNaGFPV1lTMEtJX25WWU9ybjlienNVdGRmME05U0JCdUVvUHNMcHNkcUNlUGVNX19lbUFadmhUZFJKNGRDN2k1dXJLam1zQ3pTYmd6aFJNQXppeF85VEZOQWo0dXZLU3NnbXF6NVNGbHZNNHlVemRKTXctTDVPcV9lM0JqUTduUU9uX05UaXY0LV9iVzBhcTVSSE50S3hWV3U?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Mon, 26 Oct 2026 05:00:00 GMT",
+  "found": "2026-10-27T02:14:08+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "da983ef759",
+  "title": "Kenya releases 20 Ebola contacts after 21 days in quarantine - Punch Newspapers",
+  "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOb1hrM3Zyd1pDcHRoalEwdFlaRUo0Qmg4NXh2NlVBdzNIc2d2cWxJSnR2Y1BiaEFhZ3NBYjFQbk5hQ29xVjNZX1FqWXJURUJIOHZ1ampBOWoxdUgtSGM5eXQ3amphMTlFaWpNZ2ZDaVBmc3VfN1RKcUZ6SXIycDlOcHJreEZ0Y1pw?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Mon, 26 Oct 2026 16:41:01 GMT",
+  "found": "2026-10-27T02:14:08+00:00",
   "kenya": true,
   "auto_skip": ""
  }
