@@ -1,16 +1,5 @@
 [
  {
-  "id": "8d593ec7f3",
-  "title": "Kenya announces 2nd Ebola death, a close relative of the first patient - Idaho State Journal",
-  "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPMnJOR21tZldSU1NfaXNtNDNGMlctcW13SGFjMThYc3FGdnBteTI4bjdBbGEtWVJ2d3Q3dk45SkpJOVNDdEhULUYyQlhZRjNXUlVhbHN4aGZIMVl6eDVQWHduQ3gzWG0zM0JtZ1Z4QUMxRDAtMTBQVUVEazVxNHI1TFk5Sm95X0g5bW5uN0RlVko3bkxpLUwxRm1zR25rTDg0LUd0bVl5c3hwZEVTVGhHdDdzQUtIaHRxclc5MEkxTXY3ZS1kdnRXOThaWmhHejBqTVNDMDdnLUt2ck93SDlCaURTOXJpX1hjX2dXUDZkTFBDdW1QRWhn?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Fri, 23 Oct 2026 22:09:26 GMT",
-  "found": "2026-10-25T21:05:41+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
   "id": "5e72e2a46e",
   "title": "Kenya Records Second Ebola Death As Cases Rise To Nine - The Whistler Newspaper",
   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORWhDbzF3MmFNWXZCdjgxeU5mWk5yOElrZ0cwNThTTlZvc3lJam9hdGIwMzVibXBoRS0taGpwRm9PWWRfVjdVVS1UbzFiZUNGY3ZSTEp3QllmVk93NkEyd2xhbFRKYVV1QjFIT0JaLWdlVi1pLUZqLVRialhvM3JvcUFSNDQ?oc=5",
@@ -2196,6 +2185,17 @@
   "tier": "media",
   "published": "Wed, 28 Oct 2026 10:15:00 GMT",
   "found": "2026-10-29T13:48:40+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "adbe2594a1",
+  "title": "DRC Ebola: 10,000 Cases, Nearly 5,000 Dead — Why Kenya and Nigeria Are Now a Cause for Alarm - inkl",
+  "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUEpsaHZZV2FVTC15UEZzc2lydFVTVk1LZnNiZF9sN1hlNkFtX3VxcXIwcGRHdy1ENnlMbFZhM0pVTmExNDdEZ0Y4YWZrRGJYaE5yY1hMWXN0cEhjWXV2ZGtWMW5QaWFYNS16R0s4ajJWaEdQYzg5SHhpNjVlQ2F4Q3E0SUFhOVBXX1RVU1RDWHVzRlZ0dHVlZmZVVFBfY0hTbHV4ejJOdHlUUmR1Z05xTDVoMF8?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Thu, 29 Oct 2026 12:19:23 GMT",
+  "found": "2026-10-29T19:19:53+00:00",
   "kenya": true,
   "auto_skip": ""
  }
