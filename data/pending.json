@@ -1,60 +1,5 @@
 [
  {
-  "id": "6f65f9aa9c",
-  "title": "Kenya releases 20 from 21-day Ebola quarantine, 9 cases - NewsBytes",
-  "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUnJvMEF2ZVpsYmx2aXJwamFUcnc2UW91a1FJSWc1eXlCM2FlSGdlNjVsUjg2Wk9sYUoxNXVuel9PSFBiY2dtM1E0SVlYb0YxLUJ2bVExZWd2LVhjTWZJSzh4OVVMN3NlcTRJSGdTbUN4aUVmZnpfdG8zdnNuZ0NUc09fMzhtNDhKdkN6V2V6cVNWdU9VckIxQkJwSHlveWFl?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Mon, 26 Oct 2026 18:00:00 GMT",
-  "found": "2026-10-26T19:38:11+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
-  "id": "bb8e92448c",
-  "title": "Ebola: Nigeria monitors 52 contacts as Kenya releases 20 from quarantine - Daily Nigerian",
-  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBfYlpkNHVaTGJQRFdvZmZLSVhGNkloSl9mb1gwUVMzbHZGS1lQME1QMlJldFB3Vkc4YURtd0ZNcGZTZFlXLXFfUDVWOTNsaW83cGl3WnBQVGQ2aTI5VWc?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Mon, 26 Oct 2026 18:15:12 GMT",
-  "found": "2026-10-26T19:38:11+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
-  "id": "35106fa28b",
-  "title": "Kenya Releases First 20 Ebola Contacts From Quarantine After Health Monitoring - Lokmat Times",
-  "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRTItOEFUSWpZWW5EcE9CazVVZDhESmFQRzJqVjdwMWY0dl92X01JeGpEZnFTdVZJcS15NEotbU5KRWlVd1pyOXhYb0xDSDdmZDU1Nm1Vdm5ROWlGNzNodW9oa1FRSFZuT2RnUnNNc3V2alloc21CSVlwemF4SXhLYlBlYWZ4TGREQnFjR01LVUl6ZjBVZzFOc0pIMjZ3RzRfSWJmYmhVWXlzdW5DNFBtYkI1a1VCSTFEUDVXZF91bEFrMTl3OUhqUdIBzwFBVV95cUxNTDh3S0E0TkZlSUhkNHdXSHdpQzNlSzJoVUU5T1dKVHdheG5DYlV5QmM3SzJYRVpvNUFNaFVZVGw3cjZUOVFNaHVCNTIzbldmcmRlWlZqdGNONExFMkpVUTVMWFFpZ29icEYwSVJKT1gwdVduMk5NWEtJRlFyMU0xaTZGSENkN044VnJrTUhka2VqQkRjdU5LYWMtS3pfcng0eDNoNDVmWVlQc19Ya2dEb215Q0poLUxpa3FoZFdLVHFFVU51RV9HZi11bVYyVFk?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Mon, 26 Oct 2026 17:50:29 GMT",
-  "found": "2026-10-26T19:38:11+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
-  "id": "f57d77f393",
-  "title": "Nigeria’s Ebola Case Genetically Related To Kenyan Index Case – Pate - New National Star",
-  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOLU1VMkEwcEVXUmg4aHh2bmlxakNUaXpNWkNCdVUtS1d4LW9NUkU3TDdCTHljUG9IOU80OVM5SzBNeDZmc3hsMjFyNy1zMjNCOU12ZlpGd21CMGxRdnRodVBsbEkzLV8xTTlqMHdCeGM5dEFhX3R1SlBueHlJc1N4V3RLclBTbU1JM1NuYl9BUTdMQWI2MU1KZW9R?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Mon, 26 Oct 2026 00:01:59 GMT",
-  "found": "2026-10-26T19:38:11+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
-  "id": "cef667a0a9",
-  "title": "Ebola: Africa CDC réunit les ministres africains de la Santé face à l’extension de l’épidémie à trois régions du continent 21 October 2026 | Press Releases",
-  "url": "https://africacdc.org/news-item/ebola-africa-cdc-reunit-les-ministres-africains-de-la-sante-face-a-lextension-de-lepidemie-a-trois-regions-du-continent/",
-  "source": "Africa CDC",
-  "tier": "gov",
-  "published": "",
-  "found": "2026-10-26T23:26:10+00:00",
-  "kenya": false,
-  "auto_skip": ""
- },
- {
   "id": "8083f27de5",
   "title": "Ebola: Africa CDC Convenes African Ministers of Health as Ebola Outbreak Spreads Across Three Regions 21 October 2026 | Press Releases",
   "url": "https://africacdc.org/news-item/africa-cdc-convenes-african-ministers-of-health-as-ebola-outbreak-spreads-across-three-regions/",
@@ -2196,6 +2141,61 @@
   "tier": "media",
   "published": "Sat, 31 Oct 2026 14:43:02 GMT",
   "found": "2026-10-31T20:09:49+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "e17cc439c7",
+  "title": "Kenya ramps up contact tracing efforts after first-ever Ebola case - TRT Afrika",
+  "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5SWUNvNjFPSWVxZElfcGZvZmNrTG9CczJzTEc1eXoxb2lQT3dnVEx3Z1RaTldka05YUXRWWXl6OXVSa193TGZXbk1rYURRR2JWbGFoVnV2Sk5BUGlUdmxlWG1xcWU?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Sat, 31 Oct 2026 02:08:47 GMT",
+  "found": "2026-10-31T23:30:18+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "462c9525e9",
+  "title": "Ebola: Saudi Arabia suspends travel to Kenya, halts visa issuance - Premium Times Nigeria",
+  "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdmF3OHQ3Q0RablMwenduWW55VUZIUjZIVUQ5bE45RF9wT3puWFBDOEx5UHlXaThPWE81Z3BfTVJadGdDSm04a2RwLU1BTEZKWVpnWWFsVzdac2xHNUx3aEVEamo5ZjBtdEtGbmVldklKYVZVSG5xZUpHcjZhLU1hRGxsUDFUNk1kbkJUZjIxVkM1QmlidXV6MDh4WlA3Z3FXWGU1YkM0cHhKU1VsQ3VKUW5PTmFXQ1JfVlY2TDFrSEZ6NlU?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Sat, 31 Oct 2026 22:13:56 GMT",
+  "found": "2026-10-31T23:30:18+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "d0db766730",
+  "title": "Dr Ahmed Kalebi questions Ministry of Health's two-day silence on Kenya's Ebola outbreak - The Eastleigh Voice",
+  "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbnlsY1dtUktTcVI4MUtCNTB0blJsSDJtOXNYenFvcDh0TnotQV92dVN6VDhLUnFnSWl2Zms1OGpwb3gtRkhRM0VmR204d3FEQXoxb1Y2SWk2aXdXbThWME9xTFVnZlhncEYxYVAxQVVGMFNMek1SUjhHbThmaUxScm92SHprV2Y2MmhFM3BvZUtTN1oyVzNNSHBxZmIzZ3FIRHhsbVRzanpwQW9XbzZNNksySUozVTRuMHJoQVVCQVpRSWlkcldVRUlhUk8?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Sat, 31 Oct 2026 01:12:48 GMT",
+  "found": "2026-10-31T23:30:18+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "ace653bfa3",
+  "title": "Kenya confirms third Ebola case, a close relative of other two cases - Hiiraan Online",
+  "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYmR4VGxWSTZZclF4Tlg5ZEZFOTBNV2t4N01PcGQteVpsMUEwNG5TMmVqRUF0a2U0d1BsSmtvbk9xQkRnUWQ0eFVqS1NxYlBfdW9HLTBreHR4a3RlMGd1SkY4RHg4RE9pdnduUFljV0ZoallpdVNXdW9MRWk0bXNVQVNqX3BKQzZrQ2h1aGE2Y2kwemFvQVJuYjJJdWpaaEdLX2Y5Ql9PaEVMamJVdS1FVjhsckkxMHp4OHc?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Fri, 30 Oct 2026 19:59:53 GMT",
+  "found": "2026-10-31T23:30:18+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "bb559867bc",
+  "title": "Saudi Arabia suspends travel to Kenya over Ebola concerns - Head Topics",
+  "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSzZrdzBzU043YlVBUWxnSXhEYW5CVkZQSjhuUzZqUHhoVjBwbTVsOG44eXItdFVrOW9SVExBbGplSGpIVGh2SHZ5TGlQRjhpYlp6cTdsb2hhUXRmUGtjWlpsdnN3MGgwY3pjX0hNdEhGRjdPYVoxVjMtQ3V5S29UVnJDemEzWEhydEpETVQwakh5NmdHaUprMnNoQ1kwUQ?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Sat, 31 Oct 2026 22:16:00 GMT",
+  "found": "2026-10-31T23:30:18+00:00",
   "kenya": true,
   "auto_skip": ""
  }
