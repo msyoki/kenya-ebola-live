@@ -1,16 +1,5 @@
 [
  {
-  "id": "8083f27de5",
-  "title": "Ebola: Africa CDC Convenes African Ministers of Health as Ebola Outbreak Spreads Across Three Regions 21 October 2026 | Press Releases",
-  "url": "https://africacdc.org/news-item/africa-cdc-convenes-african-ministers-of-health-as-ebola-outbreak-spreads-across-three-regions/",
-  "source": "Africa CDC",
-  "tier": "gov",
-  "published": "",
-  "found": "2026-10-26T23:26:10+00:00",
-  "kenya": false,
-  "auto_skip": ""
- },
- {
   "id": "cb865e3177",
   "title": "Africa CDC Reaffirms Support to Kenya Following Confirmation of Four Additional Ebola Cases 17 October 2026 |",
   "url": "https://africacdc.org/news-item/africa-cdc-reaffirms-support-to-kenya-following-confirmation-of-four-additional-ebola-cases/",
@@ -2197,6 +2186,17 @@
   "published": "Sat, 31 Oct 2026 22:16:00 GMT",
   "found": "2026-10-31T23:30:18+00:00",
   "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "cef667a0a9",
+  "title": "Ebola: Africa CDC réunit les ministres africains de la Santé face à l’extension de l’épidémie à trois régions du continent 21 October 2026 | Press Releases",
+  "url": "https://africacdc.org/news-item/ebola-africa-cdc-reunit-les-ministres-africains-de-la-sante-face-a-lextension-de-lepidemie-a-trois-regions-du-continent/",
+  "source": "Africa CDC",
+  "tier": "gov",
+  "published": "",
+  "found": "2026-11-01T02:58:39+00:00",
+  "kenya": false,
   "auto_skip": ""
  }
 ]
