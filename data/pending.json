@@ -1,82 +1,5 @@
 [
  {
-  "id": "a2b084ee3e",
-  "title": "Arusha steps up Ebola screening at Kenya border - thecitizen.co.tz",
-  "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMGJYZHpSWTRuVGFtWEFIQ1Z4c1d5N0tFRURQY19ucm95UW5vMjVkMVpEZUlhNzk3YWFQQmRvZWpucVFNS1JIMTI5SjRuVm9jQUJmVzJaWEdTWGhDYlNYd2Y2YmZmZEZJb1NZYXRyUUJYbjNiWmR5N3NkWG5lRGtSZGVMNmp0b1hqc3JpS1VrejZfcEtjdER3SFNnUFd3SGRsQTJIZjFsclUzcHc?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Tue, 27 Oct 2026 09:57:32 GMT",
-  "found": "2026-10-27T14:44:00+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
-  "id": "d517fe8d9c",
-  "title": "#Daily_Brief: #Kenya reports second Ebola death, with seven confirmed cases - Addis Standard",
-  "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5jaUkzX1IzdWdsMGpOTFNNbENRaVkzeEZtWjVqWE5YQXlCWU9lQloxRzlmSk04emhESlNzQkVsZktid3BSVFdWVWZRNnBBT1RTd1E?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Tue, 27 Oct 2026 09:18:22 GMT",
-  "found": "2026-10-27T14:44:00+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
-  "id": "b0948a069d",
-  "title": "Kenya Releases 20 Ebola Contacts From Quarantine - Mirage News",
-  "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQX0k3N21ScV9RcWV1ckh5RnpHMDd3eGJUbmtrWVdDaFo5My1GSkNRcnBRVTBxeUVxZk9LVU5XLXluQklMZXIyUm9TX3R1ZTJfT2tCRDhQUUtiUWRLVkRDM1BJdEFjUktUZmN1aUU0cWNLWTBMcHFLUmFBN01MZlpXN3pzNEtURXlQTjFwUQ?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Tue, 27 Oct 2026 09:04:00 GMT",
-  "found": "2026-10-27T14:44:00+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
-  "id": "52b2024d80",
-  "title": "Kenya releases first group of Ebola contacts from quarantine - Channel Africa",
-  "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQU1I0Z0F5VFcwN1FJLWtYQ2xZM3JjODd3VjFOTzRYaG5mdDl1ODBxWWU1SjU5TjMwSmh1N0RFbHVMNWdIMXRNMDRjdmE5SzFrVmwwb2dLWnJVbW5jWXpsSVVSVUFIZHFQckRIeldPNmNTQTFyVUFiMm4yRDN1MkdKY1BKakdjNFdTaDYtVnphQjNZa0MzaHluREV4X2VaNXY3UjNRVW9CM09MRGNZQmdkUUJB?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Tue, 27 Oct 2026 08:31:37 GMT",
-  "found": "2026-10-27T14:44:00+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
-  "id": "7cad19acd5",
-  "title": "Kenya releases first Ebola contacts from quarantine, milestone in containment efforts - KSL News",
-  "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZjNFazcydGVkQ3I4cVNId3FIXzlVMDlwMkpzTnlCdmhfM0Qyb0NWSnNjTENjQjZpRjJ1dUNWMjc2U21pVm9qczdvSTlzc2N1UHgxZ2hKemEtZFpwUU5fejFZaWFuazJyaWRoODlsSGdwLXlKZGRLZzhneVVCZUVlbDNGOWlJazBFby1PYVdWT3FPekEwSkU3WXRnZU53a1NNN1FCbFlaWlBVYnRyekx6NWVTR2xmbVpxZUZJVjZB?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Mon, 26 Oct 2026 14:05:57 GMT",
-  "found": "2026-10-27T14:44:00+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
-  "id": "24bacc4302",
-  "title": "Twenty contacts of Kenya’s first Bundibugyo virus disease case released from quarantine - The Tanzania Times",
-  "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcWhjSG5PMGo4MTlJemRkeVBDWW55N0VmWXQ5MFYwM2NTZThvb1B2dGFvczZGcW5WMUM4Um9OY0dwaUhWVlo5eG9ONDBUMjczbGlzZU14SkhIQ3NjR0JNWWNQMkhJWDRJVW1kbmkxTjNLUWxORkNwMU4ydUxPWGRqZ3hsYkJkYW9PekRRbk54TzNyZXZYOWpzY1dfeUtCVFRoYnkxUEw2RWpCYkg4dE9jUG9vdw?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Mon, 26 Oct 2026 14:19:41 GMT",
-  "found": "2026-10-27T14:44:00+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
-  "id": "fa34dd00c6",
-  "title": "Africa CDC Commends Kenya’s Decisive Leadership and Strengthens Joint Efforts to Contain Ebola 27 October 2026 | Joint Statement",
-  "url": "https://africacdc.org/news-item/africa-cdc-commends-kenyas-decisive-leadership-and-strengthens-joint-efforts-to-contain-ebola/",
-  "source": "Africa CDC",
-  "tier": "gov",
-  "published": "",
-  "found": "2026-10-27T19:44:13+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
   "id": "f1a7f73db6",
   "title": "Communiqué d’Africa CDC sur le financement de la riposte à l’épidémie d’Ebola en RDC. 15 October 2026 | Communiqué",
   "url": "https://africacdc.org/news-item/communique-dafrica-cdc-sur-le-financement-de-la-riposte-a-lepidemie-debola-en-rdc/",
@@ -2196,6 +2119,83 @@
   "tier": "media",
   "published": "Sun, 01 Nov 2026 15:41:35 GMT",
   "found": "2026-11-01T16:52:19+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "ea39b78495",
+  "title": "Saudi Arabia Tightens Ebola Travel Restrictions on Kenya as Nairobi Defends Outbreak Response - Horn Observer",
+  "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZXd5bGJCM1BFS2ZkbjlUb204TlcxTDlCZko3RE5YcTRrMUtaTUxSUmV0RVBibUh5OXluUlVpZHZmRmx2TDcyOUlkU2t4d3ljd2hxMFk1RjRUU3VwWUdZa1Q0RE5ZekV3NFFuNE5wRFBubzhEbmZXeU5aMkRTXzdWa2NiQXRDSmw1MVUzOWlVbVd2OWhXVWdMQ01ZbTZ0VjFweFRmbnpBRkZZdlV2M1czTTdFOU50M29tSFFkTUJUOUtWVjRhRHNzWEs0eTA?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Sun, 01 Nov 2026 20:28:29 GMT",
+  "found": "2026-11-01T20:53:33+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "9f1b11a22a",
+  "title": "Kenya demands Saudi Arabia lift Ebola travel ban, warns of economic fallout - TRT Afrika",
+  "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA5MEFKdDVhanppTTJjcmh0SkVfYXpZbmdKRU9TN29BTWVXbmU2Y3NkbDhrSlZidVROU3Y4U01kMGIxbWhOSDh2Wll6MldPQ3JWVHNWQ3A4LUtEZ05LOFdqVkJycl8?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Sun, 01 Nov 2026 16:55:30 GMT",
+  "found": "2026-11-01T20:53:33+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "a02cc827e4",
+  "title": "Two Ebola Patients Test Negative as Kenya Reports Progress in Outbreak Response - Talk Africa",
+  "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNaVlQbWNsWU5OSURLVExkenBsZTAxSmVsVV9tdXRYR3NqWXp2bnQxR0NDQWJlazY3X0drMkpWYlN3bDFGQ0dDQmx2MFl0bXdDdExHZHl4V0JtTlFCTnhQSC11Q3NyYmhyeUpmQ3lTUUNQYUFqLWNDeXNEQTRuNHQyVTVqUEs5Y1VtRnozVGR2dEVHcEM3UmRGT3ZaQnJqLUNPT0RhMFozdGlHLTJnRFE?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Sun, 01 Nov 2026 13:43:48 GMT",
+  "found": "2026-11-01T20:53:33+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "41b55245e2",
+  "title": "Africa CDC backs Kenya's Ebola response, criticises Saudi Arabia's travel restrictions - www.standardmedia.co.ke",
+  "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNTnhIT0lKUHE4Z0xjSmwzRzlDZlh6TEh0UmtnMEJTSi1penJ3bGhzdldRWG13VGZwS0Fsa2M5Rlk4bHJsVG1PbDFOUVJDcDJrTXNHTkFFaFVEeEVwcVFjQUxzS3JFZ2tBWU5MRlR4ZG1jeklkQkNkUUp5NTAyQW5DVnpoSDY5cVFBNG1NLVlmNWZqRmZ2cFhWbkFQS1NhVFpxRWhSUk5KS3NBUU9wenBkSTVyV0J5S3NDRGJhV3ZldVRCN0NxbGNhRXlrUkdGcUZkZWFtS1pINk9JeFRrSnhxdXM5cnliNWNN?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Sun, 01 Nov 2026 13:07:36 GMT",
+  "found": "2026-11-01T20:53:33+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "a82a42cbb0",
+  "title": "Ebola: Saudi Arabia suspends travel, entry from Kenya - TRT Afrika",
+  "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9YN1B0YmxFZmtJdVA1V3dqbkVZM2tuMXJVOGxyYklKcUdPVFpQZVRFYnZTajdSSHp4SjVMclE4N0tLenU4ZkEwaWZ4WkFhRnNiN1c2Wm5VbDJVTWo4YVU4ODdzVDM?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Fri, 30 Oct 2026 20:58:19 GMT",
+  "found": "2026-11-01T20:53:33+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "1a7e8163fa",
+  "title": "Kenya urged to sustain Ebola safeguards as contact tracing continues - The Standard",
+  "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUWZwYVFINlVSQ1V4NUVtM1lwQlEyMzJOb0hJczc2dm54ZnVxQk91cHBRclNsWXZoNjFNSWh2R0ZNaGFPV1lTMEtJX25WWU9ybjlienNVdGRmME05U0JCdUVvUHNMcHNkcUNlUGVNX19lbUFadmhUZFJKNGRDN2k1dXJLam1zQ3pTYmd6aFJNQXppeF85VEZOQWo0dXZLU3NnbXF6NVNGbHZNNHlVemRKTXctTDVPcV9lM0JqUTduUU9uX05UaXY0LV9iVzBhcTVSSE50S3hWV3U?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Sat, 31 Oct 2026 05:00:00 GMT",
+  "found": "2026-11-01T20:53:33+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "8778869cac",
+  "title": "Saudi Arabia bans entry of travellers from Kenya over Ebola concerns - standardmedia.co.ke",
+  "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdG8yaFRXejQxaEg4Y3NUR2lmX3lGeGZxTFBfV09YclRrdExqeHY2Mi1fSnZ2dU9RaUtydzREM081elkyaklHTEVHUmo2ekNOcTFCQnk2UHA0VEN6amYteE1obGI2bWJSOExocFprQS1scFdjWmdybmFNbTZ1RjFsc3ctOW9wU0NoWFlWaDJ1QVFzVnRFVGh2ZjZ6ZURrRmR1ejNDcFozTTgwXzdjRTNQZ3NFamJpM3RkMzY4cmZKMGFyR2g3RzJWVE9hY3FlOGc?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Sat, 31 Oct 2026 10:05:29 GMT",
+  "found": "2026-11-01T20:53:33+00:00",
   "kenya": true,
   "auto_skip": ""
  }
