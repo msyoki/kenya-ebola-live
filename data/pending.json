@@ -1,38 +1,5 @@
 [
  {
-  "id": "f1a7f73db6",
-  "title": "Communiqué d’Africa CDC sur le financement de la riposte à l’épidémie d’Ebola en RDC. 15 October 2026 | Communiqué",
-  "url": "https://africacdc.org/news-item/communique-dafrica-cdc-sur-le-financement-de-la-riposte-a-lepidemie-debola-en-rdc/",
-  "source": "Africa CDC",
-  "tier": "gov",
-  "published": "",
-  "found": "2026-10-27T19:44:13+00:00",
-  "kenya": false,
-  "auto_skip": ""
- },
- {
-  "id": "5cfbc11b26",
-  "title": "Kenya releases first Ebola contacts from quarantine, milestone in containment efforts - Reuters",
-  "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOQ0xfSW9iWXA3Rms0RUVnU29QQ2F0TkZkUUxfLUhqdnYwTmF4OTdZSEtWUGtzNVhQSldxMzRVeTBicklyOFQtS0Q0TTUxQ2FpWHlxbmhFSkYtX25pc3pqeVFfeW5QRFFMVTBCbXZ5X1Z2SDN2VzBJTE1YVy13RTJQNlRwd1dqNFNMT2xaME9HRFphNlBfTWFKb2p1ejE2N3d0ZGdVVm5NZTFNcTVNR3ZxbVl4WDQ3aFFUTTdzdUZwMWtBM0VGX3VUR1k1NjFXOFE0c3RDNzJ5bmdxNkVKbi1BTHJ3?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Mon, 26 Oct 2026 14:43:46 GMT",
-  "found": "2026-10-27T19:44:13+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
-  "id": "57456b0400",
-  "title": "Kenya gets Ksh195M in Ebola support from African health agency - People Daily",
-  "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPam44Z0s4X0xIYWhYcXA2OUtDdGdCYlkwOUlJTmZ2M292dUFZcnY1WDFKbjBLNTJJdFJac2lvZEZ5Q0V4RVJCcjU0MVloRGNBeFNncVlhb1pqMENsbDZ4ZTNTdDIzYUxhRFBFSnBtVGNFdElWeGtSWk5idERINUM0LTN6RDAybnU5Vy1wNFItSlBBTTJucGdFX19JTQ?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Tue, 27 Oct 2026 15:33:45 GMT",
-  "found": "2026-10-27T19:44:13+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
   "id": "e1d7926093",
   "title": "Tanzania steps up Ebola preparedness at Kenya border following outbreak - Latest news from Azerbaijan",
   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWWwyWEdjS29vaG4xNW5UMkZtS21VaS1abHZsM0hSMnlJa0FkLUx3TjZOUWJMdzRSVzNpZUJISmQzMGtaZjh3dEV6ZTA3Ym9kd3VGWV8tSlJkZ1psaXRLSFQ2WGNGMWZ4aUd5MW5xSXJDYWo1aWpvWEo4MmY1T0R2dUFFdDV5RVRpOTZOMm9KOFdXZnc5UHVN?oc=5",
@@ -2196,6 +2163,39 @@
   "tier": "media",
   "published": "Sat, 31 Oct 2026 10:05:29 GMT",
   "found": "2026-11-01T20:53:33+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "fa34dd00c6",
+  "title": "Africa CDC Commends Kenya’s Decisive Leadership and Strengthens Joint Efforts to Contain Ebola 27 October 2026 | Joint Statement",
+  "url": "https://africacdc.org/news-item/africa-cdc-commends-kenyas-decisive-leadership-and-strengthens-joint-efforts-to-contain-ebola/",
+  "source": "Africa CDC",
+  "tier": "gov",
+  "published": "",
+  "found": "2026-11-02T00:00:28+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "cd5e3e0d30",
+  "title": "Kenya seeks churches’ help to curb Ebola - CathNews",
+  "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5JX2I4WVZ2cUpyUUZWRjI0V0pibmZfUjVpLWVjVnIweklEb0Fnc0hNRWt1dENINF8tREFlenltTFEwa0VTeU82T1IxUy1BdVh6QkdOakhVNlM2Q29UU195TlV0RkNUTGVJckFacEpxQ0FuSEFVbmpjSXR3ZF8?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Sun, 01 Nov 2026 20:53:05 GMT",
+  "found": "2026-11-02T00:00:28+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "506af1e4d1",
+  "title": "'Tumaini' Ebola vaccine trial starts as Kenya seeks 10,000 doses - The Standard Media Group",
+  "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQdEZ1TlBqbkE2U3l3MkRRak9BSkdqaVU3V0VJXzNOWHg1QWVhcC0tQjBiSmF0Z3phS0l4WGVqc01ieXdLNnV2VjBoMjN3ZEVYSGFIb3liQUdPbTJYc3RLUmdsdmdVZXNCc3Y1aTZQaS03ZUZJOVZPR3pEYTRXb1NhdU5EdE1oZUczOC1pODc0VzJUaVk2b0pEaWVMbjY5ZjVNMW1KQzdkYk5lSEhhZ085alZEUUhPWEdETXZNbE9EYzJPWUtrSW9qOTRkR29ncEHSAdQBQVVfeXFMUHNGSXhUbkNMWlRvbE45aFlnQlFsU2tydGlFdUhCeWplQ0dLWHVNc2d2MUVHaUZPSWJkWGdDbEhyZGVFbU1tTVB1YjBCSGVZbFo2a2w1S3BnWFhJejYweWd4b0diYTFWLUlKczhzNVV1NmVEa0o2TkVpQnVycnRmWGJVMFhWRVBWVVpuR2FPMkN0NWZGSG1vdWpWM2VHMDJDNkp0UjFuSnhseFcwQTJ4aW03YlJmSzhFSFdpY1FwRHVVUXNDdjZrUVNOU19sa1JISkFtb2g?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Sat, 31 Oct 2026 05:00:00 GMT",
+  "found": "2026-11-02T00:00:28+00:00",
   "kenya": true,
   "auto_skip": ""
  }
