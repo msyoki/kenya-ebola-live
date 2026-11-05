@@ -1,16 +1,5 @@
 [
  {
-  "id": "67475c8332",
-  "title": "Saudi Arabia Suspends Travel to Kenya and Halts Visas as a Precaution Against Ebola - صحيفة سبق الإلكترونية",
-  "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9mdXdOVVJ2ZGlvdFNzTzVOcGlXV2RYWUxKZm93bDZuNjRrS2xibktLZTV1TlZjY2RjNzlDQnJVaVpRbWtieUpQWkhLNA?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Fri, 30 Oct 2026 13:50:57 GMT",
-  "found": "2026-10-30T20:55:57+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
   "id": "8f482746e7",
   "title": "MP calls for Kenya entry ban over Ebola fears - News of Bahrain",
   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOaGFtNkV3OGtCM3pSOVpzZVY1TnlITUtMTDJNZWlVMUxIOEpkM0N5elVMUlp3b3h3Q1k1Zmw2UlJTeGlDN041Q3puWmV4bjl2SFJpX2xLaXd5SkRmWXpFN1hNQUJqZDFpYVRDNHViUW9QVTY4Sm8tdHBpanNMWlpwMjNYb0FzVzgzQU5zQ3NqWmJPRXpUaGhTRg?oc=5",
@@ -2196,6 +2185,17 @@
   "tier": "media",
   "published": "Tue, 03 Nov 2026 16:44:03 GMT",
   "found": "2026-11-04T20:59:52+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "0b98e81848",
+  "title": "Kenya’s Ebola battle: The wins, the gaps and the 42-day countdown - Daily Nation",
+  "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZ2RUM3MyaEpQeWtvdEdRamNGd1VTcHByMGJHVW1PMVh1N3l5dkx3eHJuaU5XOHh3NUtPNm8yU3RUVzVmNFVBMER6ZGJvYjRhLTFwY3dKa2NqVGhpRk5YMnppWmNPeS1BZWR4YThhTlBWWGR0aFpjOVhSTUhNR284RnRDaXlnWjJoVm9xeUY5RkUxTzJEZkxzVg?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Wed, 04 Nov 2026 09:13:18 GMT",
+  "found": "2026-11-05T08:00:15+00:00",
   "kenya": true,
   "auto_skip": ""
  }
