@@ -1,16 +1,5 @@
 [
  {
-  "id": "a6010150c7",
-  "title": "Kenya hits back at Saudi Arabia over Ebola travel restrictions - The Eastleigh Voice",
-  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNS1pvQnRpby1xUklXM0ZCS3hfcEVCWEUtNG1DQW1jeW9MblJoWlRPSVRJNVQyWmdoOVRmTFZyb0RpOVRkZ0FSbFRoMWpvTFJYUHM5cXpRVzFDdVJqNWNmVFRGWTNiMGdmTFlvRV84a3g0VjhNVktFUld5blBPTk9yOGtkMnMtRk1oYkpNejBGM0VBNnZQY08wdXBDSG8zeVNNSjU0a2Y4QkppMWYwcndxYw?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Sat, 31 Oct 2026 14:50:33 GMT",
-  "found": "2026-10-31T20:09:49+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
   "id": "afb1d69ea8",
   "title": "Kenya rejects Saudi's Ebola travel restrictions, terms them 'excessive' - The Standard",
   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSkl2MVc2bTRaRUZ0bjJWTXdwTmR4amhncWlEVmVHZTI2blNWdGRCdHFIdlBwbkZ0U1dmeEFZTFN4S25YQ0d0c09mRzd1MmI0cTF2Umk2RkI1TC0xbWtkLXZsM1R0S194cXZoS0xNaURPZWE1VUs1RHVVMzJXOGlFb2k1bDhlNjlLeXFuWENEMVRwRHBSQnBRU3NMeXpjU3dSSDZSOUlWN2YyM2JIUTByTUpzX1dObHhsZFdzYUx0R0NlLTJ5Nnc?oc=5",
@@ -2196,6 +2185,17 @@
   "tier": "media",
   "published": "Sat, 07 Nov 2026 12:07:12 GMT",
   "found": "2026-11-07T15:25:13+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "f3a40e93b6",
+  "title": "Ebola: What new rules mean for Kenyans returning home for Christmas - Daily Nation",
+  "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMlBxZGVrRmxrNlZpRGRmaTF4eVRiTS1xV3REMGM1ajZ0YlQ5Y1ZpNnl6NWpRUnU4OWxCajZqamJHejhueWFfb3l5aVJteXhFOE96Mk9aUGdHUFRXNmlHeTNma2NReV8xTzFfem1yNmZUNkxETXJydGZuaFBnV3VwZ3p5bENjOW1STG51YlcxWUZJZnJTekdHM2xjb2xaTV9PalYxSWlhV1M1emZuLWc?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Sat, 07 Nov 2026 15:32:58 GMT",
+  "found": "2026-11-07T19:30:19+00:00",
   "kenya": true,
   "auto_skip": ""
  }
