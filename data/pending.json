@@ -1,27 +1,5 @@
 [
  {
-  "id": "1b3caed1c9",
-  "title": "Kenya condemns Saudi Arabia’s Ebola travel ban - Radiokaya",
-  "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB0ZTkzWnE1dWZ6VVdqNWZFQV9DM2w2U1BmbjNuYThWY1pSQ3QySGUzMUtjUDFza184c2M1ajktSHJkdThoWTZMaFN0cHZ0NUxZY0lwWFFjTHV4RURLNVVqNlpBZUVwM3ZsZGtNaWtGNHhGOThhUV9QWldB?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Sun, 01 Nov 2026 05:43:07 GMT",
-  "found": "2026-11-01T10:05:32+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
-  "id": "cf6723f9a7",
-  "title": "Kenya presses Saudi Arabia to lift Ebola travel restrictions - Türkiye Today",
-  "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZ3cxNDI5MnVJQk9lNl9DTTdaWTA2Yl9CdWlnOC1tRl9tUnU4S3NELWN4c0NWWkp6NnhxeW1mRWxpcFM1Q2pZdVpVYzZEaWNTWVk0YWhPSGdjc1UwSzVockpnbFctdHpCemNaYV9HQ3pxdldmR3N4TmtCbUs3SkVnU0hWLTh1SmU3TnU1eXBFNDVqY0d1SXlrTVNyVkNHZFcwd1daUlRR?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Sun, 01 Nov 2026 07:12:22 GMT",
-  "found": "2026-11-01T10:05:32+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
   "id": "8b042c03e7",
   "title": "Kenya challenges Saudi Ebola travel ban as no new cases reported since October 19 - Kenya Association of Travel Agents",
   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcTF0NHNRdUMzWHBEWWdGSEowYWhnVVNFcGNmZVlGMnpkQjFaQ3lkSzYyLWNJY0NBUktrVkItSFVCelk5MFZyRUZLR0pBNjV2ZjdfeXJPcDZKTkdDWV9mWFUxbXFtMVdPLUpZbTFYX0txOU1veHRUcnBnNzZSSHBrekoyd3AxVVJFNGIwWkZsTE8yTzREbklRRkNsWTU1UHAxT3VVeFBTbw?oc=5",
@@ -2196,6 +2174,28 @@
   "tier": "media",
   "published": "Mon, 09 Nov 2026 13:26:21 GMT",
   "found": "2026-11-09T17:00:22+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "411e8352d2",
+  "title": "Regional body backs intensified Ebola screening at four Kenyan entry points - The Standard Media Group",
+  "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQQWVLeUxvdUVmaXp5LXNtZ2N6UU1LUkx4WldlbEg1dlBlMFVjSUpROG1oOTJtdmpyZE9tajFIZGloY0psaWR3ZTZaMlB5MkxYMG1GUmlIM0NGNnhLVWFhVE1YTWFUT2hzRS1iNHRJNTJlVGItYXNhRklOdlBRWUJqVGVmdFVLU1pKSGd5Qk1BQlIwdVN2NVk3a3UtVDQxellZaVBQWktJYmJtQnJ4MElyZVFDS3FPRjZzVlJvTnRlMGNMTjlaRXJnTkF6SVZQeElmeHFUTVp0Tm1SdGlDb1FtNGx30gHnAUFVX3lxTE5QMUpCbXNvcFU0bFBXaWhGcE9GWUt4bXhXRXhOUGd5SzFXbU1ZWnJPeUV1aF9jOUl1N05QSHIyMTloRnFXdUtpblJaeG12UkVIZk9EeEdTRDVMZVdZRHEwLXpYMi1VeEJrZmFQWGZRaC1tMy1xRFFoQThzV09kdmxTdko4R0hKRWFZaDk4Tk5KVkNtYTFBQTZsU1FydTJNWlk2bUZ1bG5oa1Y0UWhaU1FDbEtxZHAySUdpU1BndWFEVHc3TXJJbmNzaVNmRjYxRU55eXZwQm9kVTIyY19OR0NkcXdxelRrUQ?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Mon, 09 Nov 2026 09:12:16 GMT",
+  "found": "2026-11-10T00:45:37+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "908cc33874",
+  "title": "How community health promoters can help protect Kenya from Ebola - The Star, Kenya",
+  "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRW5TMFVYeDhiOFBnamJpOVpSOXF5MjZmOThfc2ZGWnlmbkl3NFd3aW1pVFJ6M2VVbjBnakMtSUJIRUZGS1Zrczd0ZEdwSlBUUHhaZU1xd1JNZkhtYVV5YWtKZWVOOFFTNVNOMkxZUGgxR3JyQ0lWSVZod0hfZUI0bFRNazRlRk9VMWEyN2s3NUlidEE4cEVKZXlxMG9RaFJVVU12bmxpQkpqWEUwOG1MOU9fUHlUZlFOUDFKOA?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Mon, 09 Nov 2026 06:00:00 GMT",
+  "found": "2026-11-10T00:45:37+00:00",
   "kenya": true,
   "auto_skip": ""
  }
