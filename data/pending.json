@@ -1,16 +1,5 @@
 [
  {
-  "id": "8b042c03e7",
-  "title": "Kenya challenges Saudi Ebola travel ban as no new cases reported since October 19 - Kenya Association of Travel Agents",
-  "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcTF0NHNRdUMzWHBEWWdGSEowYWhnVVNFcGNmZVlGMnpkQjFaQ3lkSzYyLWNJY0NBUktrVkItSFVCelk5MFZyRUZLR0pBNjV2ZjdfeXJPcDZKTkdDWV9mWFUxbXFtMVdPLUpZbTFYX0txOU1veHRUcnBnNzZSSHBrekoyd3AxVVJFNGIwWkZsTE8yTzREbklRRkNsWTU1UHAxT3VVeFBTbw?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Sun, 01 Nov 2026 08:13:13 GMT",
-  "found": "2026-11-01T10:05:32+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
   "id": "74bac3b0a8",
   "title": "Duale Hits Back At Saudi Arabia, Challenges Its Decision Over Ebola Situation In Kenya - The Kenya Times",
   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5HNUFaczktZkhxRGpqcVgtQnRHT1h3Q1U2c3Zoek9JUG45eTZ5QllMNEFOLUxKN3UwNnBSRlRLcGlBbUhYSzZyZThMeGtQZEtZQ1lZWUVQc2JWdF8yNG1ZR1h6cG9jeEV5?oc=5",
@@ -2196,6 +2185,17 @@
   "tier": "media",
   "published": "Mon, 09 Nov 2026 06:00:00 GMT",
   "found": "2026-11-10T00:45:37+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "5a3b704b8b",
+  "title": "Kenya, WHO Review Ebola Response as Country Records Three Weeks Without New Cases - Kahawatungu",
+  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSmJMVkRRZzZ2TndpTnliN0ZNRThjOUcwTjRlNTl6ckRCLV8xd0QyNGd2SHQxYmw5bWFQdjk2eW15TzhzUmhrVWpQSV9vQzZXYkd4MFFnY1lWSzFvb1F1V0tfdEVQNUdEZG9sOGluOTJoLW9na05LbTBXNW5nS19rUVpLUEdFQzlwanQtSzZXelVCeGZDQzVzS2RFbG9iTWxnejJHWWlPaVVodkhJYkJBZ9IBsAFBVV95cUxQSmJMVkRRZzZ2TndpTnliN0ZNRThjOUcwTjRlNTl6ckRCLV8xd0QyNGd2SHQxYmw5bWFQdjk2eW15TzhzUmhrVWpQSV9vQzZXYkd4MFFnY1lWSzFvb1F1V0tfdEVQNUdEZG9sOGluOTJoLW9na05LbTBXNW5nS19rUVpLUEdFQzlwanQtSzZXelVCeGZDQzVzS2RFbG9iTWxnejJHWWlPaVVodkhJYkJBZw?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Mon, 09 Nov 2026 13:26:21 GMT",
+  "found": "2026-11-10T07:51:38+00:00",
   "kenya": true,
   "auto_skip": ""
  }
