@@ -1,11 +1,11 @@
 {
- "checked": "2026-11-12T03:56:43+00:00",
+ "checked": "2026-11-12T12:02:25+00:00",
  "pending": 200,
  "sources": [
   {
    "name": "Kenya Ministry of Health",
    "ok": true,
-   "items": 1,
+   "items": 0,
    "auto": 0
   },
   {
@@ -18,13 +18,13 @@
   {
    "name": "Africa CDC",
    "ok": true,
-   "items": 3,
+   "items": 0,
    "auto": 0
   },
   {
    "name": "News search: Ebola Kenya",
    "ok": true,
-   "items": 7,
+   "items": 18,
    "auto": 0
   }
  ]
