@@ -1,16 +1,5 @@
 [
  {
-  "id": "55c86d7ba5",
-  "title": "Kenya seeks to ban repatriation of Ebola victims' bodies from abroad - The Eastleigh Voice",
-  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQTl3a0Z6S0xrZzNVS1cxbjlKMi1XeE8zSjVmN1RBdnFGcFFKajNRRGVPcEszSk5CWm9hM3d0bDh3QnpiMjVsN3JkSjdtLUZvdXJBWTVETnVUeW12eV9fd0NtLXhnODAyU0k3VkZkNk1ZZXdGU0lGN1lTYWp0UEZlT1hUY2xuYnJMZV9wSkpGRFk1dV9BNS02di1WNi1VM09JbEMwVFVXZlc1RHdu?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Thu, 05 Nov 2026 09:48:30 GMT",
-  "found": "2026-11-06T10:03:30+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
   "id": "fa306b857f",
   "title": "Duale Presents New Ebola Rules Banning Body Washing, Embalming and Repatriation - Nairobi Wire -",
   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZ040bU1nY2I4bjZIeDFMX3hBV29SdVBBa1BjLUViOHh2bENDUno2NTZXQTdtaXk4WEsyczd1MVc4T2Yxb3VlVFJtYUE0YWZtdkNWSi1XUjFvTDVyTlpSd0hLb2FnbG14Y19zYUdydjRfVExpVVN6X2NUR3JhXzhEMFpXZHdYZDhnd3NMUA?oc=5",
@@ -2196,6 +2185,17 @@
   "tier": "media",
   "published": "Sun, 15 Nov 2026 13:51:25 GMT",
   "found": "2026-11-15T14:30:54+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "f04421724b",
+  "title": "Kenya contains imported Ebola case as country moves towards disease-free status - Kenya Association of Travel Agents",
+  "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPakoyX000REJmcF9wTU5kNEZpNmhZU2ZVcDVXYVQ3MGhBNENZb2V3enJxNWJhMGVEQXE3bzI1eExjUnVXcHpjc3lPNEpTdnY4NW5xYmp4QkJrUHFPcEJ5dThnbzZpSDc3OWRiRV80b2htSXlMMFdiRUl6WWp6REJpX21XaEVUQUJRWUpfYzZFcXFPdHRpdk14NUJvODhUNHhSb2J6aA?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Sun, 15 Nov 2026 17:50:56 GMT",
+  "found": "2026-11-15T20:00:27+00:00",
   "kenya": true,
   "auto_skip": ""
  }
