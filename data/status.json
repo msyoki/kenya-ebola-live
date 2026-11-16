@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-16T00:04:05+00:00",
+ "checked": "2026-11-16T06:54:31+00:00",
  "pending": 200,
  "sources": [
   {
@@ -23,10 +23,9 @@
   },
   {
    "name": "News search: Ebola Kenya",
-   "ok": false,
-   "items": 0,
-   "auto": 0,
-   "error": "HTTP Error 503: Service Unavailable"
+   "ok": true,
+   "items": 1,
+   "auto": 0
   }
  ]
 }

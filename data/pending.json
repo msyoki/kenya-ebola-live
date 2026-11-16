@@ -1,16 +1,5 @@
 [
  {
-  "id": "fa306b857f",
-  "title": "Duale Presents New Ebola Rules Banning Body Washing, Embalming and Repatriation - Nairobi Wire -",
-  "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZ040bU1nY2I4bjZIeDFMX3hBV29SdVBBa1BjLUViOHh2bENDUno2NTZXQTdtaXk4WEsyczd1MVc4T2Yxb3VlVFJtYUE0YWZtdkNWSi1XUjFvTDVyTlpSd0hLb2FnbG14Y19zYUdydjRfVExpVVN6X2NUR3JhXzhEMFpXZHdYZDhnd3NMUA?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Fri, 06 Nov 2026 03:54:56 GMT",
-  "found": "2026-11-06T10:03:30+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
   "id": "64d9925582",
   "title": "One Ebola patient left as Kenya awaits outbreak clearance - Daily Nation",
   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNejhtdTkyaVdmaGZ4QVFySFRfQlllcG4yZC13QjBtTlpwcWhZV2ZUc01HdFVKOGg1Ql9Gemk5RVhibU1ZREROZThyU094RThhN09VWHJLSmJpRkIwNWk1Y2M5WmM1SXNQTHZ1VkNGVzRlbVN6b2k1WjQ3MTlSZEVlZUY2Z1FMX2NQeWh6YlduLVpEVklxV1BPendqUVNSd2tNS2c?oc=5",
@@ -2196,6 +2185,17 @@
   "tier": "media",
   "published": "Sun, 15 Nov 2026 17:50:56 GMT",
   "found": "2026-11-15T20:00:27+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "1f7df77a2d",
+  "title": "Ministry steps up Ebola awareness, surveillance in Busia - The Star, Kenya",
+  "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLTh5bktpN0hlcUlHZ1pvVkFpQW9zY1J1OFlXM2FLVmtMZHZXNlNZZERNNUkyZTNGYTRwcEMzeGoycHR2c2hDRS1OVVJ4ZVNVbkVjTHRORlVuVmt1ZE9ta3VabFJkXzZoMlpKV1lha0NOS3lSc2tyN2FsQzNvTmtzRE5mVVNKQUluYjVHNXVLclRucFJnN3ZPRXZWVmRHRmFvZlNja2tPb2w?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Mon, 16 Nov 2026 02:10:00 GMT",
+  "found": "2026-11-16T06:54:31+00:00",
   "kenya": true,
   "auto_skip": ""
  }
