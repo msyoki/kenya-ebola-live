@@ -1,13 +1,12 @@
 {
- "checked": "2026-11-18T00:28:59+00:00",
+ "checked": "2026-11-18T07:50:21+00:00",
  "pending": 200,
  "sources": [
   {
    "name": "Kenya Ministry of Health",
-   "ok": false,
+   "ok": true,
    "items": 0,
-   "auto": 0,
-   "error": "<urlopen error [Errno 111] Connection refused>"
+   "auto": 0
   },
   {
    "name": "WHO Disease Outbreak News",
@@ -25,7 +24,7 @@
   {
    "name": "News search: Ebola Kenya",
    "ok": true,
-   "items": 2,
+   "items": 3,
    "auto": 0
   }
  ]
