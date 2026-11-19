@@ -1,16 +1,5 @@
 [
  {
-  "id": "92a5254c28",
-  "title": "Sixth Ebola patient in Kenya discharged, one still under treatment - www.standardmedia.co.ke",
-  "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNX05IM1pZOGk3Y2tnYmlQU1VRZWpmdGt0RVJkbWZiLUNPVEltam5SeDRTM2tQOUoyOTZVY0tNSzc3bVMtZnMwNU9QRFFpY0dTSEJaVmFXSmJNdW01ZlJKclRpTTE0RlZKNVlRTXdGMVkzV29zQUYwaHdFclA5VmFQSVBHVXB4U2p6MUsxZmhDcHlSeU1hOGV5NV85SW1Ua25nZUR1UUswMk5rdFBVYWJSeU5NX242Sjd2U1BkcG1TMA?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Fri, 06 Nov 2026 14:53:00 GMT",
-  "found": "2026-11-06T22:29:06+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
   "id": "748e88f068",
   "title": "Kenya: Ebola Outbreak Nears End With Only One Patient Remaining in Treatment - Mwakilishi.com",
   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVExXU1dfcHFxN0lkZmZIbnl5WFFqeGhsU1ViNmhMeFlKTm96c2I1Ml82TU45cUlTYzRTT0dUbERwTWVnYmpfVFBXNTRXOVZobUx2bW1JWG9tWVlGTWF1R0x0Z1JLRHhrMlJLeHFOUmVVUUVZQ1RMZ29wVy1NcnJYV2thWFZCUlk5bEtORl9fN2pvN05CeE9scnpWM1ViSXY2aUxDMXRDQU1FMnhYdHBmRnlEVHg?oc=5",
@@ -2196,6 +2185,17 @@
   "tier": "media",
   "published": "Wed, 18 Nov 2026 10:27:44 GMT",
   "found": "2026-11-18T16:47:49+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "b49f8c82d4",
+  "title": "Ciidamada Kenya ee nabad-ilaalinta oo ka qeyb qaadanaya dadaallada lagula dagaallamayo Ebola ee Jamhuuriyadda Congo - Shabelle Media Network",
+  "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQV0R3MnI0M0d4OHlKdEl2X0tfRDdNbll6a1RUV3VEZGU1UVQ0cGJIYmNIUlBLRHdHdlRoblFKNHdTV2xsU3lfajlJck8yTzhvaVN2eWFlRXgtdFB2bkxsS09hMWxwTGEtQnZLTll0ZmVmckFUdkZNM05mSEswWC1aX08yOGE0MWJ4RlFwQUdCczkwR2t2MDNxX0Zzd2pja2pDTFM5cm5mSEtORC1mTi14WHR5RjZtel9pMFdmLXhkMGg5TmZkMllMVmZ2ZHVmbzF5QUVUY19yZ0VhZw?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Thu, 19 Nov 2026 09:17:56 GMT",
+  "found": "2026-11-19T13:38:19+00:00",
   "kenya": true,
   "auto_skip": ""
  }
