@@ -1,16 +1,5 @@
 [
  {
-  "id": "c53fb420b2",
-  "title": "Kenya wins praise over its Ebola response strategy - The Star, Kenya",
-  "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNWlrWmhXU09VOEJBQk1pcTZsZjBMMEtTVXZ0b1lvUUJyaHdyaGtRSjQzVWpiT0JleDJwUHBTUHNpYjl1Z2JYTkFoNmNIbDVsV1RQZVVTMU1WY21kdGZ1MzVaMHQ1VUctQzZiN2ZPTTVRTTN2bkNWTHFwdTRERmlXU3lURjJXUzNlNmZnOTZUV1o5TUVSZVNmNA?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Sat, 07 Nov 2026 12:45:00 GMT",
-  "found": "2026-11-07T15:25:13+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
   "id": "d93bd9265b",
   "title": "Kenya records 18 days without Ebola case - Kenya News Agency",
   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBlMERIZGNwdkxtNDdtWmt4UWxBQmpGLWNXVjQ4eVNRdXd1RS1jTUQ2YzZYU0tDWFdpdUJFa2lUSVI0aXpDalRhcWl4QldwUkJBQldkY0p5X0pvSjlLSk9wVHBmcElPUGdTSUZNWE9oZ3pkOTFqY2prMQ?oc=5",
@@ -2196,6 +2185,17 @@
   "tier": "media",
   "published": "Fri, 20 Nov 2026 05:19:42 GMT",
   "found": "2026-11-20T10:41:41+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "7dc00e3f5e",
+  "title": "Kenya Contained Ebola With Preparation, Not Luck. Africa Needs More of the Same - allAfrica.com",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LOFh4eElubzRZT3lWMmo1ZUF0am15MXByUEFMQ0ZMV0RkaEdDZzRIN3A0OUF0ejRrU0VNb3lDVmZNaHNMZHFjUkM4ZHNfU3psejlUM2xUUDBsMlU?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Fri, 20 Nov 2026 04:54:41 GMT",
+  "found": "2026-11-20T18:54:00+00:00",
   "kenya": true,
   "auto_skip": ""
  }
