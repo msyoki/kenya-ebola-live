@@ -1,16 +1,5 @@
 [
  {
-  "id": "4151a48a8f",
-  "title": "Kenya says 6 Ebola patients recover, 1 under treatment - The Peninsula Qatar",
-  "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaWZFSXh1ZXdBVWhlV0NDZHB0a0ZWYVlBWWxCSVBUTkpQNUFDbkF0bXRQRURfMnBJUFhCT3JIVXhYVlhGaHhvODIzN3hNZlNJMGxNTlAyM2tqTmVtcjUyaXFSM2QzcmkyTnJXazk0Uy1lSHNid0JETTBUVnJpQmt1UXJqUVdQdXRQUVlLb05Hb0hlTVIxdElmUnlUajZHNTZQMlV3Vw?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Sat, 07 Nov 2026 12:07:12 GMT",
-  "found": "2026-11-07T15:25:13+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
   "id": "f3a40e93b6",
   "title": "Ebola: What new rules mean for Kenyans returning home for Christmas - Daily Nation",
   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMlBxZGVrRmxrNlZpRGRmaTF4eVRiTS1xV3REMGM1ajZ0YlQ5Y1ZpNnl6NWpRUnU4OWxCajZqamJHejhueWFfb3l5aVJteXhFOE96Mk9aUGdHUFRXNmlHeTNma2NReV8xTzFfem1yNmZUNkxETXJydGZuaFBnV3VwZ3p5bENjOW1STG51YlcxWUZJZnJTekdHM2xjb2xaTV9PalYxSWlhV1M1emZuLWc?oc=5",
@@ -2196,6 +2185,17 @@
   "tier": "media",
   "published": "Fri, 20 Nov 2026 14:14:40 GMT",
   "found": "2026-11-21T07:29:57+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "590c2f05bf",
+  "title": "Kenya Contained Ebola With Preparation, Not Luck. Africa Needs More of the Same - Inter Press Service",
+  "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOX0ZpcFNCTzFpYmlycUdTa1NwY0tsd216QUVULWp2ZVdwYmVtdUdHVkROeTVzcFZ0bkI5LWdpdy1IOTM0ZVdMU0dmWmNmZFVUZzdIRlZlemxFTzg2b25iem5vSHIyMThsdmdDeFM1LUJ1bHBrMnUtamtwdElqaU5wdktRYmdndXB0eWlLU1pGQ04xbV9VZ2doZzBZaF9QdG1vUFJnc2JmYlk4YnNoM2Jv?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Thu, 19 Nov 2026 16:02:06 GMT",
+  "found": "2026-11-21T15:31:24+00:00",
   "kenya": true,
   "auto_skip": ""
  }
