@@ -1,16 +1,5 @@
 [
  {
-  "id": "8295356753",
-  "title": "Africa CDC urges Saudi Arabia to review Ebola travel restrictions imposed on Kenya - People Daily",
-  "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdjlCeS01VFBBTzk0LUFINzA5bkl0c3NMOFJjb005bDVsQ0lybGl5WW1sdG5NTzE3dlZtb2NfZUtZUmYzMG5BcjZGUzV3M2FfbVdsOWxNZXhrUEx2Q0FnU1p6QUF4eVJGMVlGNE9hOVluNGM1MU1CZmQ1cnB0QnlMUFpyYVpsODJXR19fT2REUGJFZ2hsRmRUM1dIM05UMkFBOHFHSFpiVWdzNUNyRWt6cGlaTURQUQ?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Sun, 08 Nov 2026 03:50:39 GMT",
-  "found": "2026-11-08T09:40:23+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
   "id": "d091ccb86a",
   "title": "Kenya’s Ebola cases hit 8, with no community transmission yet - WFMZ.com",
   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNbXM2UVFXZjRIU2tiVko3dGVpM09QbkN4Z3FWUkhkSWQ4ZTd4ZDF0bUxmTGhDXzFYbG5ZRVdfZEhlMGhldXhwR01SV2UzYW1BY3NfdUtlOUgxRjhJSWtvOEU0RWt4OTV6QnBlblNrYjZqemdIYlM5Q2pjWjNKUFAxTUQ5V0gzWU55ckxLaDM0V3RhWjE5VGRMMGpVVjVBQXcwemJmdHBiYmxEclRPSnF2eXRZUlFvODlmRGRHdFc2WkctMHhZWC1SQ25GZlpSZkJsWTVUSEo2VkFLdzlEeFlpb0Zrd2JpUQ?oc=5",
@@ -2196,6 +2185,17 @@
   "tier": "media",
   "published": "Mon, 23 Nov 2026 12:26:25 GMT",
   "found": "2026-11-23T22:24:23+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "e7dae8f066",
+  "title": "Kenya steps up Ebola screening even as active cases decline - The Standard Media Group",
+  "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUEgzR2tSTzJQWjFtQlR5eERnQTg4MGZwTHFuNnNQazl0dmtROHctdngyUVltd2EtYmxVQUtxc3FIb3FjRWhMeVFqenY1ZHZDeUtUeFFzUUV0cFAyMUx3QWpNVFBzbzZ0Q3VTQzI4d1Q3QjlMVWcxLWxlbl81WUhENjJ4NGVXU0E2Y0lMRzBXSTBaRmF4UWMxa3lsZHQ4c09uN2dOek5Dd2VNeC1QNGVUUWEydDYwd1pHUDJQR3J3Y2lPZUhhNzVDV2VtMDHSAdIBQVVfeXFMUGhjU05EYXJtZ2RuUWhYeFlqSmdOcEswV1R4X3lPb1pWRXI3OFlUb21feWR1V19GbjlZTGZNZmtfOGNyRUxQZ2NHdTZoYld6eDlINzVNT0dLXzJtZTNZWHhDZU1vTXplenJ2N2VJRmttb3JfdlNNU3VacVg3SDBXUmZscEtHdU0tTW5PSWNKZ2ZxZDRUVEVuRUhiUW95OWczWVpmX0JadjZ3eE8wbXdNOFNmZUNhWEc3WXRDaG5BUmtMVFhOMkpBWDk5U0RSREZtQWZR?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Mon, 23 Nov 2026 10:31:13 GMT",
+  "found": "2026-11-24T17:59:32+00:00",
   "kenya": true,
   "auto_skip": ""
  }
