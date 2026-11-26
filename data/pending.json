@@ -1,16 +1,5 @@
 [
  {
-  "id": "600abb303a",
-  "title": "Kenya steps up Ebola screening even as active cases decline - www.standardmedia.co.ke",
-  "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNamNSbm9iZjVFLW5Oa3dQTm9XdVJYVlZCQTdMM0U2TDE1TE9sOTVIRU1YVjdPV0ZQSXZKOVRLbDg5WVlMak1aeDVkRU1sa3U2WWltNF82N0EteXV5X2syaXo2WDRPelJ3UE5LYXVZZENzSWlPUkFYMk13emNQaXROcElpay11aV9XN09iZHlfQmpydGpOS0VjVHMzQjNmUWUzRzU0cm1BQUNFVG5TbW1wbXhGeHJZMTRJS1hKNjNVSHo4MmM?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Sat, 07 Nov 2026 12:57:46 GMT",
-  "found": "2026-11-08T20:39:24+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
   "id": "ef6660845d",
   "title": "Ebola: 20 contacts released from quarantine in Kenya, amid vaccine ‘hope’ in Democratic Republic of the (DR) Congo - Africa24 TV",
   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdzBqYzNKTXVBYWkyWXJDclNwZENmaTY3YmFMZnVRVG53TFh6VWRtY0pLZDhSMGY4ajRYc1pVajRvMVRsVzlTZV9vaWJGN29JazBVdmxyS2xNZXcxV2lBT25aNVVzSkI3OEg2MEFfRDExSU1SS0lmanpqQm8yN3h1S0p1dUFrZjZjNXlLTHhuSVlRNDJjSzgtV1NaTnFUYzhiTGZyWF9haGRQdGw3eWVzUk1UZU1lckNiN0pYVUl2dFRLTHVBN0RVcWc5RG4?oc=5",
@@ -2196,6 +2185,17 @@
   "tier": "media",
   "published": "Wed, 25 Nov 2026 16:17:38 GMT",
   "found": "2026-11-25T20:17:40+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "2d0dba34ae",
+  "title": "Kenya May Be Declared Ebola-Free By December 23 As New Infections Ease - Sahara Reporters",
+  "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaHFqZFpnVFJhYU1KdUlnbXFCdWpIZ0tRekNRc0pNcUV3cXdpT3d1b2VLLXJLNEk2X21IZ2xqMzVubVFTTndHODJDcFdxb3JIOWFtZmFKNWVFd2VrWnktWGxndndPamJxSm1RYTROcU5KT09KYVNJUzZKWVZDZmx4NXNTczdDMVRZUDNGelh0WXN6WXVIMzU0dEZRRU12YlNRaWtGeGJ3?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Wed, 25 Nov 2026 21:27:38 GMT",
+  "found": "2026-11-26T02:56:55+00:00",
   "kenya": true,
   "auto_skip": ""
  }
