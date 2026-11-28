@@ -1,16 +1,5 @@
 [
  {
-  "id": "ee1d26adad",
-  "title": "\"Will not\": Blow to Trump as Kenya rejects serving as Ebola quarantine centre - Tuko News",
-  "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVmZ4dk9ld0VfUjBDS0tnLWl4MFFrMHdLNElJRGIyNzI4dnA1d2U5a0czWC1tcGxEbDdiLU5RRlpEMFZzTFVub3N5bUs2LVplZzFkQUZrbXpsdXZSNTIwRnE0RVd1dXRZLU4yVzlvOGgyaVdqUzNodzlTNUx0Ym5pMmV6T3ZnVVd2WGxCclQ5M3VnZEU5VXNZOU1CM0xyTklpVEFNenlR?oc=5",
-  "source": "News search: Ebola Kenya",
-  "tier": "media",
-  "published": "Wed, 11 Nov 2026 11:56:47 GMT",
-  "found": "2026-11-11T16:44:09+00:00",
-  "kenya": true,
-  "auto_skip": ""
- },
- {
   "id": "ee9678c760",
   "title": "Kenya Declared Ebola-Free as Duale Announces Discharge of Last Patient - Business Today Kenya",
   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1RelNlZURKZVZkSFYyaWszTkcwUnR6WWg5b0dDd19ZNDdvZEVaM3lJNzgya1EwVWYtTVBuQ3lYZkdieGF2MkQzV3o0WTRSU1JhX1NTa296RHBTWmtjckx6cm45SnI?oc=5",
@@ -2196,6 +2185,17 @@
   "tier": "media",
   "published": "Thu, 26 Nov 2026 07:19:35 GMT",
   "found": "2026-11-27T21:43:48+00:00",
+  "kenya": true,
+  "auto_skip": ""
+ },
+ {
+  "id": "6a71cf7470",
+  "title": "Court blocks US-linked Kenyan Ebola quarantine facility - marketscreener.com",
+  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdkQxck4tblJCUmdDZmo1dmJJN3RBemg4MGdLRHlVdFY5UnRiSXB1VmJBUEJKUW5MMEFrVUpwT3ZndWFObWtsTjdLOHdnbHl2ZXhHa2hIQXJwMm8yTE1rZjV1dlZya3YtUmw0dWtySlBLaU1CMVZ3c3cxYzF0V0tnb0RaYXo3RS15RmlzUHhRdGlyMjJ4ekkyZHlQaVpjcWk3WXdwcHNwbWY2aXRN?oc=5",
+  "source": "News search: Ebola Kenya",
+  "tier": "media",
+  "published": "Thu, 26 Nov 2026 13:40:29 GMT",
+  "found": "2026-11-28T03:37:38+00:00",
   "kenya": true,
   "auto_skip": ""
  }
